@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JWT Token Generator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f9f9f9;
+      }
+      textarea,
+      input {
+        width: 100%;
+        margin: 8px 0;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-family: monospace;
+      }
+      button {
+        padding: 10px 20px;
+        margin-top: 10px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+      .output {
+        margin-top: 15px;
+        background: #eee;
+        padding: 10px;
+        border-radius: 6px;
+        word-wrap: break-word;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/jsrsasign"></script>
+  </head>
+  <body>
+    <h2>JWT Token Generator</h2>
+
+    <label for="payload">Payload (JSON):</label>
+    <textarea
+      id="payload"
+      rows="6"
+      placeholder='{"user":"ravi","role":"admin"}'
+    ></textarea>
+
+    <label for="secret">Secret:</label>
+    <input type="text" id="secret" placeholder="Enter secret key" />
+
+    <button onclick="generateJWT()">Generate JWT</button>
+
+    <div class="output">
+      <strong>JWT Token:</strong>
+      <p id="jwtOutput"></p>
+    </div>
+
+    <script>
+      function generateJWT() {
+        try {
+          const payloadText = document.getElementById("payload").value.trim();
+          const secret = document.getElementById("secret").value.trim();
+
+          if (!payloadText || !secret) {
+            alert("Please enter both JSON payload and secret!");
+            return;
+          }
+
+          const payload = JSON.parse(payloadText); // parse JSON input
+
+          // Header for JWT
+          const header = { alg: "HS256", typ: "JWT" };
+
+          // Sign JWT using jsrsasign
+          const sHeader = JSON.stringify(header);
+          const sPayload = JSON.stringify(payload);
+          const token = KJUR.jws.JWS.sign("HS256", sHeader, sPayload, {
+            utf8: secret,
+          });
+
+          document.getElementById("jwtOutput").innerText = token;
+        } catch (e) {
+          alert("Invalid JSON payload!");
+        }
+      }
+    </script>
+  </body>
+</html>
