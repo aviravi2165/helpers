@@ -1,0 +1,253 @@
+<!-- 
+use ievo;
+DECLARE @StartDateRange1 DATE = '2025-07-01';
+DECLARE @EndDateRange2 DATE = '2025-07-27'; 
+
+-- Create dynamic labels
+DECLARE @Label1 NVARCHAR(100) = FORMAT(@StartDateRange1, 'dd MMM') + ' - ' + FORMAT(@EndDateRange2, 'dd MMM');
+
+-- Final Query
+SELECT
+    t.Label,
+	t.Assignee,
+	t.Department,
+    COUNT(*) AS TotalTasks,
+
+    SUM(CASE WHEN t.acceptanceStatus = 'PENDING' THEN 1 ELSE 0 END) AS PendingTasks,
+    SUM(CASE WHEN t.acceptanceStatus = 'ACCEPTED' THEN 1 ELSE 0 END) AS AcceptedTasks,
+    SUM(CASE WHEN t.acceptanceStatus = 'REJECTED' THEN 1 ELSE 0 END) AS RejectedTasks,
+
+    SUM(CASE WHEN t.doneStatus = 1 THEN 1 ELSE 0 END) AS DoneTasks,
+    SUM(CASE WHEN t.acknowledgeStatus = 1 THEN 1 ELSE 0 END) AS AcknowledgedTasks,
+
+    SUM(CASE WHEN t.acceptanceStatus = 'PENDING' AND CAST(t.deadline AS Date) < CAST(GETDATE() AS Date) THEN 1 ELSE 0 END) AS DeadlinePassedPendingAcceptance,
+    SUM(CASE WHEN t.doneStatus = 0 AND CAST(t.deadline AS Date) < CAST(GETDATE() AS Date) AND t.acceptanceStatus <> 'REJECTED' THEN 1 ELSE 0 END) AS DeadlinePassedNotPendingCompletion,
+    SUM(CASE WHEN t.acknowledgeStatus = 0 AND CAST(t.deadline AS Date) < CAST(GETDATE() AS Date)  AND t.acceptanceStatus <> 'REJECTED' THEN 1 ELSE 0 END) AS DeadlinePassedPendingAcknowledgement,
+    
+    SUM(CASE WHEN t.acceptanceStatus = 'ACCEPTED' AND CAST(t.acceptanceOn AS Date) > CAST(t.deadline AS Date) THEN 1 ELSE 0 END) AS AcceptedAfterDeadline,
+    SUM(CASE WHEN t.doneStatus = 1 AND CAST(t.doneOn  AS Date) > CAST(t.deadline AS Date) THEN 1 ELSE 0 END) AS DoneAfterDeadline,
+	SUM(CASE WHEN t.acknowledgeStatus = 1 AND CAST(t.acknowledgeOn AS Date) > CAST(t.deadline AS Date) THEN 1 ELSE 0 END) AS AcknowledgedAfterDeadline
+
+FROM (
+    -- First range: Start to T-1
+    SELECT 
+    	tm.*, 
+    	@Label1 AS Label, 
+    	um.firstName + ' ' + um.lastName AS Assignee,
+    	dm.subDept AS Department
+    FROM taskMgmt tm
+    INNER JOIN usersMaster um ON tm.taskTo = um.userId
+    INNER JOIN deptMaster dm ON um.deptId = dm.id
+    WHERE 
+    	taskByOn BETWEEN @StartDateRange1 AND DATEADD(DAY, 1, @EndDateRange2)
+    	AND
+    	subDocId <> 1
+    	AND
+    	taskBy <> taskTo
+
+) AS t
+GROUP BY  t.Label, t.Assignee,t.Department
+ORDER BY t.Department;
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task Summary</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        font-size: 14px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #eee;
+      }
+      td.assignee {
+        text-align: left;
+        font-weight: bold;
+      }
+      h3 {
+        margin-bottom: 10px;
+      }
+      .highlight {
+        background-color: #dbf1d2;
+        font-weight: bolder;
+        font-style: italic;
+      }
+      .bg1 {
+        background-color: #cafdff;
+      }
+      .bg2 {
+        background-color: #c4f8da;
+      }
+      .bg3 {
+        background-color: #ffbcbc;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Task Summary</h3>
+
+    <table id="taskTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Assignee</th>
+          <th>Dept</th>
+          <th class="bg1">Total</th>
+          <th class="bg1">Pending</th>
+          <th class="bg1">Accepted</th>
+          <th class="bg1">Rejected</th>
+          <th class="bg1">Done</th>
+          <th class="bg1">Acknowledged</th>
+          <th class="bg2">Deadline Passed<br />Pending Acceptance</th>
+          <th class="bg2">Deadline Passed<br />Not Completed</th>
+          <th class="bg2">Deadline Passed<br />Pending Acknowledgement</th>
+          <th class="bg3">Accepted<br />After Deadline</th>
+          <th class="bg3">Done<br />After Deadline</th>
+          <th class="bg3">Acknowledged<br />After Deadline</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const summary = {};
+          data.forEach((item) => {
+            const key = `${item.Assignee} (${item.Department})`;
+            if (!summary[key]) {
+              summary[key] = {
+                Assignee: "",
+                Department: "",
+                Total: 0,
+                Accepted: 0,
+                Pending: 0,
+                Rejected: 0,
+                Done: 0,
+                Acknowledged: 0,
+                DeadlinePendingAcceptance: 0,
+                DeadlineNotDone: 0,
+                DeadlinePendingAck: 0,
+                AcceptedLate: 0,
+                DoneLate: 0,
+                AcknowledgedLate: 0,
+              };
+            }
+
+            summary[key].Assignee = item.Assignee;
+            summary[key].Department = item.Department;
+            summary[key].Total += item.TotalTasks || 0;
+            summary[key].Accepted += item.AcceptedTasks || 0;
+            summary[key].Pending += item.PendingTasks || 0;
+            summary[key].Rejected += item.RejectedTasks || 0;
+            summary[key].Done += item.DoneTasks || 0;
+            summary[key].Acknowledged += item.AcknowledgedTasks || 0;
+            summary[key].DeadlinePendingAcceptance +=
+              item.DeadlinePassedPendingAcceptance || 0;
+            summary[key].DeadlineNotDone +=
+              item.DeadlinePassedNotPendingCompletion || 0;
+            summary[key].DeadlinePendingAck +=
+              item.DeadlinePassedPendingAcknowledgement || 0;
+            summary[key].AcceptedLate += item.AcceptedAfterDeadline || 0;
+            summary[key].DoneLate += item.DoneAfterDeadline || 0;
+            summary[key].AcknowledgedLate +=
+              item.AcknowledgedAfterDeadline || 0;
+          });
+
+          const tbody = document.querySelector("#taskTable tbody");
+          let totalCount = 0;
+          let totalAcceptedCount = 0;
+          let totalPendingCount = 0;
+          let totalDoneCount = 0;
+          let totalAckCount = 0;
+          let totalRejectedCount = 0;
+          Object.entries(summary).forEach(([assignee, values], index) => {
+            totalCount += values.Total;
+            totalAcceptedCount += values.Accepted;
+            totalPendingCount += values.Pending;
+            totalDoneCount += values.Done;
+            totalAckCount += values.Acknowledged;
+            totalRejectedCount += values.Rejected;
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td class="assignee">${values.Assignee}</td>
+                    <td>${values.Department}</td>
+                    <td class="${values.Total && "highlight"} bg1">${
+              values.Total
+            }</td>
+            <td  class="${values.Pending && "highlight"} bg1">${
+              values.Pending
+            }</td>
+            <td  class="${values.Accepted && "highlight"} bg1">${
+              values.Accepted
+            }</td>
+                    <td  class="${values.Rejected && "highlight"} bg1">${
+              values.Rejected
+            }</td>
+                    <td  class="${values.Done && "highlight"} bg1">${
+              values.Done
+            }</td>
+                    <td  class="${values.Acknowledged && "highlight"} bg1">${
+              values.Acknowledged
+            }</td>
+                    <td  class="${
+                      values.DeadlinePendingAcceptance && "highlight"
+                    } bg2">${values.DeadlinePendingAcceptance}</td>
+                    <td  class="${values.DeadlineNotDone && "highlight"} bg2">${
+              values.DeadlineNotDone
+            }</td>
+                    <td  class="${
+                      values.DeadlinePendingAck && "highlight"
+                    } bg2">${values.DeadlinePendingAck}</td>
+                    <td  class="${values.AcceptedLate && "highlight"} bg3">${
+              values.AcceptedLate
+            }</td>
+                    <td class="${values.DoneLate && "highlight"} bg3">${
+              values.DoneLate
+            }</td>
+                    <td class="${values.AcknowledgedLate && "highlight"} bg3">${
+              values.AcknowledgedLate
+            }</td>
+                  `;
+            tbody.appendChild(tr);
+          });
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+                    <th colspan=3>Total</th>
+                    <th>${totalCount}</th>
+                    <th>${totalAcceptedCount}</th>
+                    <th>${totalPendingCount}</th>
+                    <th>${totalRejectedCount}</th>
+                    <th>${totalDoneCount}</th>
+                    <th>${totalAckCount}</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                  `;
+          tbody.appendChild(tr);
+        })
+        .catch((error) => console.error("Error:", error));
+    </script>
+  </body>
+</html>
