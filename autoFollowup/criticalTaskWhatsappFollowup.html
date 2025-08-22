@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Deadline Checker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        font-size: 14px;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      .critical {
+        background-color: #ffe5e5;
+      }
+      .whatsapp-link {
+        text-decoration: none;
+        color: white;
+        background: #25d366;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Critical Task Deadlines</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Doc Code</th>
+          <th>Task Details</th>
+          <th>Task To</th>
+          <th>Task To Contact</th>
+          <th>Task By</th>
+          <th>Task By Contact</th>
+          <th>deadline</th>
+          <th>Action for Assignee</th>
+          <th>Action for Assignor</th>
+        </tr>
+      </thead>
+      <tbody id="taskTable"></tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script>
+      async function loadTasks() {
+        try {
+          const res = await fetch("data.json"); // fetch from same folder
+          const tasks = await res.json();
+          console.log(tasks);
+
+          const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+          const tbody = document.getElementById("taskTable");
+
+          tasks.forEach((task) => {
+            const row = document.createElement("tr");
+            const isCritical = task.deadline <= today;
+
+            if (isCritical) row.classList.add("critical");
+
+            row.innerHTML = `
+            <td>${task.docCode}</td>
+            <td>${task.taskDetails}</td>
+            <td>${task["Task To"]}</td>
+            <td>${task["Task To Contact"]}</td>
+
+            <td>${task["Task By"]}</td>
+            <td>${task["Task By Contact"]}</td>
+            <td>${dayjs(task.deadline).format("DD-MMM-YYYY")}</td>
+            <td>
+              ${
+                isCritical
+                  ? `<a class="whatsapp-link" target="_blank"
+                       href="https://wa.me/91${String(
+                         task["Task To Contact"]
+                       ).replace(/\D/g, "")}?text=${encodeURIComponent(
+                      `⚠️ Deadline critical: Task "${task.docCode} - ${task.taskDetails}" is due on ${task.deadline}`
+                    )}">
+                       WhatsApp
+                     </a>`
+                  : "-"
+              }
+            </td>
+            <td>
+              ${
+                isCritical
+                  ? `<a class="whatsapp-link" target="_blank"
+                       href="https://wa.me/${
+                         task["Task By Contact"]
+                       }?text=${encodeURIComponent(
+                      `⚠️ Deadline critical: Task "${task.docCode} - ${task.taskDetails}" is/was due on ${task.deadline}`
+                    )}">
+                       WhatsApp
+                     </a>`
+                  : "-"
+              }
+            </td>
+          `;
+            tbody.appendChild(row);
+          });
+        } catch (err) {
+          console.error("Error loading tasks:", err);
+        }
+      }
+
+      loadTasks();
+    </script>
+  </body>
+</html>
