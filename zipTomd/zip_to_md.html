@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zip to Markdown</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  </head>
+  <body>
+    <h2>Convert Zip → Markdown</h2>
+    <input type="file" id="zipInput" accept=".zip" />
+
+    <script>
+      document
+        .getElementById("zipInput")
+        .addEventListener("change", async (event) => {
+          const file = event.target.files[0];
+          if (!file) return;
+
+          const zip = new JSZip();
+          const loadedZip = await zip.loadAsync(file);
+
+          let markdownContent = `# Combined Content from ${file.name}\n\n`;
+
+          for (const [relativePath, zipEntry] of Object.entries(
+            loadedZip.files
+          )) {
+            if (!zipEntry.dir) {
+              const fileData = await zipEntry.async("string");
+              const ext = relativePath.split(".").pop();
+
+              markdownContent += `## 📄 ${relativePath}\n\n`;
+              markdownContent += "```" + ext + "\n";
+              markdownContent += fileData + "\n";
+              markdownContent += "```\n\n";
+            }
+          }
+
+          const blob = new Blob([markdownContent], {
+            type: "text/markdown;charset=utf-8",
+          });
+          saveAs(blob, "combined.md");
+        });
+    </script>
+  </body>
+</html>
