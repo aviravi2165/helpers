@@ -42,6 +42,7 @@
     <table>
       <thead>
         <tr>
+          <th>3</th>
           <th>Doc Code</th>
           <th>Task Details</th>
           <th>Task To</th>
@@ -49,6 +50,7 @@
           <th>Task By</th>
           <th>Task By Contact</th>
           <th>deadline</th>
+          <th>Stage</th>
           <th>Action for Assignee</th>
           <th>Action for Assignor</th>
         </tr>
@@ -67,13 +69,30 @@
           const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
           const tbody = document.getElementById("taskTable");
 
-          tasks.forEach((task) => {
-            const row = document.createElement("tr");
-            const isCritical = task.deadline <= today;
+          tasks.forEach((task, index) => {
+            let currentStage = "";
 
+            const row = document.createElement("tr");
+            const isCritical =
+              dayjs().isAfter(task.deadline, "day") ||
+              dayjs().isSame(task.deadline, "day");
             if (isCritical) row.classList.add("critical");
 
+            if (task.acceptanceStatus === "PENDING") {
+              currentStage = "AWAIT ACCEPTANCE";
+            } else if (
+              task.acceptanceStatus === "ACCEPTED" &&
+              !task.doneStatus
+            ) {
+              currentStage = "AWAIT COMPLETION";
+            } else if (task.doneStatus && !task.acknowledgeStatus) {
+              currentStage = "AWAIT ACKNOWLEDGEMENT";
+            } else {
+              currentStage = "????";
+            }
+
             row.innerHTML = `
+            <td>${index + 1}</td>
             <td>${task.docCode}</td>
             <td>${task.taskDetails}</td>
             <td>${task["Task To"]}</td>
@@ -82,6 +101,7 @@
             <td>${task["Task By"]}</td>
             <td>${task["Task By Contact"]}</td>
             <td>${dayjs(task.deadline).format("DD-MMM-YYYY")}</td>
+            <td>${currentStage}</td>
             <td>
               ${
                 isCritical

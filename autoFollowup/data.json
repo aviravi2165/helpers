@@ -6,7 +6,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Team Fire and Safety Training ",
-    "deadline": "2025-11-29T18:30:00.000Z"
+    "deadline": "2025-11-29T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4233",
@@ -15,7 +18,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Extension Of the Four way in shruti ",
-    "deadline": "2025-08-30T18:30:00.000Z"
+    "deadline": "2025-08-30T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4371",
@@ -24,7 +30,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "debtors reconsulation",
-    "deadline": "2025-09-09T18:30:00.000Z"
+    "deadline": "2025-09-09T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4251",
@@ -33,7 +42,10 @@
     "Task By": "Yashwant Dangi",
     "Task By Contact": "6377206850",
     "taskDetails": "debtors reconciliation - DOMESTIC",
-    "deadline": "2025-08-26T07:40:24.223Z"
+    "deadline": "2025-08-26T07:40:24.223Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4354",
@@ -42,7 +54,10 @@
     "Task By": "Mohit Nagda",
     "Task By Contact": "6377044483",
     "taskDetails": "Provide Shop drawings -  F_FFM Vadodara_Phase - 4 (10F )",
-    "deadline": "2025-08-27T18:30:00.000Z"
+    "deadline": "2025-08-27T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4231",
@@ -51,7 +66,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Parallel Fire Panel ",
-    "deadline": "2025-08-30T18:30:00.000Z"
+    "deadline": "2025-08-30T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4343",
@@ -60,7 +78,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "E-Meet with Ar. Gaurav Premchandani RE: Sisarma Resort",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4337",
@@ -69,7 +90,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "India EV Show 25 - Gandhinagar (indiaev.org)",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4326",
@@ -78,7 +102,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Elemental / B'lore (Rahul Kehtan Shb) - RFQ ",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4329",
@@ -87,7 +114,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "WoodTech Open Issues",
-    "deadline": "2025-08-25T18:30:00.000Z"
+    "deadline": "2025-08-25T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4331",
@@ -96,7 +126,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Marriott Meeting Points - Execution",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4234",
@@ -105,7 +138,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Audit Documents",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4275",
@@ -114,7 +150,10 @@
     "Task By": "Ravi Taparia",
     "Task By Contact": "9251663510",
     "taskDetails": "Payments Vendor",
-    "deadline": "2025-08-19T18:30:00.000Z"
+    "deadline": "2025-08-19T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4212",
@@ -123,7 +162,10 @@
     "Task By": "Abdul Kadir Khan",
     "Task By Contact": "7073473294",
     "taskDetails": "jhadol haveli",
-    "deadline": "2025-08-15T18:30:00.000Z"
+    "deadline": "2025-08-15T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4375",
@@ -132,7 +174,10 @@
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
     "taskDetails": "Costing -Doha Qater -addon",
-    "deadline": "2025-08-25T18:30:00.000Z"
+    "deadline": "2025-08-25T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4327",
@@ -141,7 +186,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Door Rework - Four Seasons (Gwalior)",
-    "deadline": "2025-08-23T18:30:00.000Z"
+    "deadline": "2025-08-23T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4376",
@@ -150,7 +198,10 @@
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
     "taskDetails": "Costing - Sheraton Gurugram",
-    "deadline": "2025-08-27T18:30:00.000Z"
+    "deadline": "2025-08-27T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4353",
@@ -159,7 +210,10 @@
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
     "taskDetails": "Costing -FFM vadodra",
-    "deadline": "2025-08-26T18:30:00.000Z"
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4355",
@@ -168,7 +222,10 @@
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
     "taskDetails": "Costing Ritz carlton-Shimla",
-    "deadline": "2025-08-30T18:30:00.000Z"
+    "deadline": "2025-08-30T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_0174",
@@ -177,7 +234,10 @@
     "Task By": "Mohammed Akeel Sheikh",
     "Task By Contact": "9627836637",
     "taskDetails": "Costing for Andaaz Projects",
-    "deadline": "2025-08-16T05:47:17.620Z"
+    "deadline": "2025-08-16T05:47:17.620Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4333",
@@ -186,7 +246,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Fabric receipt for sofas",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4370",
@@ -195,7 +258,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "branch accounts ievo + icm",
-    "deadline": "2025-08-29T23:46:50.290Z"
+    "deadline": "2025-08-29T23:46:50.290Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4363",
@@ -204,7 +270,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "branch billing GST Confirmation from client",
-    "deadline": "2025-08-31T18:30:00.000Z"
+    "deadline": "2025-08-31T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4366",
@@ -213,7 +282,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "SNA Glue Payment Deduction",
-    "deadline": "2025-09-29T18:30:00.000Z"
+    "deadline": "2025-09-29T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4291",
@@ -222,7 +294,10 @@
     "Task By": "Jitendra Jain",
     "Task By Contact": "7849906210",
     "taskDetails": "CYM Gwalior",
-    "deadline": "2025-08-26T18:30:00.000Z"
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4290",
@@ -231,7 +306,10 @@
     "Task By": "Jitendra Jain",
     "Task By Contact": "7849906210",
     "taskDetails": "CYM Vitthalapur Drawing Revision  ",
-    "deadline": "2025-08-26T18:30:00.000Z"
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4318",
@@ -240,7 +318,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "ITC welcom Tirupati | MUR |2 | Project handover",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4315",
@@ -249,7 +330,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Taj aravali - Lounge furniture ( PO acceptance & PI ) to client",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4319",
@@ -258,7 +342,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Radisson Candolim Goa | Grievacnes | check & take update",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4314",
@@ -267,7 +354,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Taj aravali  - balance items project handover",
-    "deadline": "2025-08-21T18:30:00.000Z"
+    "deadline": "2025-08-21T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4321",
@@ -276,7 +366,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Grand hyatt Kukas Jaipur | Discussion & Project Handover to be given",
-    "deadline": "2025-08-26T18:30:00.000Z"
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4364",
@@ -285,7 +378,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "BOE Pending List upto 31-08-2025 with matching tally data",
-    "deadline": "2025-09-12T18:30:00.000Z"
+    "deadline": "2025-09-12T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4334",
@@ -294,7 +390,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "MSL Report",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4348",
@@ -303,7 +402,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Ganesh Packaging Solutions RFQ",
-    "deadline": "2025-08-25T18:30:00.000Z"
+    "deadline": "2025-08-25T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4273",
@@ -312,7 +414,10 @@
     "Task By": "Ranveer Singh",
     "Task By Contact": "6376917944",
     "taskDetails": "Ranthambore Cane",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4372",
@@ -321,7 +426,10 @@
     "Task By": "Dhruv Modi",
     "Task By Contact": "9509216002",
     "taskDetails": "Board Order Update for all projects with ETA",
-    "deadline": "2025-08-24T23:44:56.007Z"
+    "deadline": "2025-08-24T23:44:56.007Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4320",
@@ -330,7 +438,10 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Grievance Form | Amendment & additional info. docke to be prepared",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4302",
@@ -339,7 +450,10 @@
     "Task By": "Nilesh Dhupia",
     "Task By Contact": "7976483813",
     "taskDetails": "Material Request ",
-    "deadline": "2025-08-19T22:32:22.677Z"
+    "deadline": "2025-08-19T22:32:22.677Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4377",
@@ -348,7 +462,10 @@
     "Task By": "Nikhil S Nalwaya",
     "Task By Contact": "7698897976",
     "taskDetails": "Organize Library ",
-    "deadline": "2025-08-29T18:30:00.000Z"
+    "deadline": "2025-08-29T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4297",
@@ -357,7 +474,10 @@
     "Task By": "Nikhil S Nalwaya",
     "Task By Contact": "7698897976",
     "taskDetails": "Close all pending invoice ",
-    "deadline": "2025-08-20T18:30:00.000Z"
+    "deadline": "2025-08-20T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4245",
@@ -366,16 +486,10 @@
     "Task By": "Ashok Jangir",
     "Task By Contact": "7073473291",
     "taskDetails": "BANDRA LAMINATE",
-    "deadline": "2025-08-18T18:30:00.000Z"
-  },
-  {
-    "docCode": "TASK_4361",
-    "Task To": "Pankaj Sharma",
-    "Task To Contact": "7300049284",
-    "Task By": "Nikhil S Nalwaya",
-    "Task By Contact": "7698897976",
-    "taskDetails": "Channel qty require for 25000 pieces",
-    "deadline": "2025-08-25T18:30:00.000Z"
+    "deadline": "2025-08-18T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4374",
@@ -384,7 +498,10 @@
     "Task By": "Ajit Kumar",
     "Task By Contact": "6377203165",
     "taskDetails": " \n \t\nPC2526_1025 | F_Creative Clinic x Bandra House_BULK File_14",
-    "deadline": "2025-08-26T18:30:00.000Z"
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4352",
@@ -393,7 +510,10 @@
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
     "taskDetails": "Costing - Waterstone apartment furniture",
-    "deadline": "2025-08-25T18:30:00.000Z"
+    "deadline": "2025-08-25T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4301",
@@ -402,7 +522,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Kiquip revised quotation ",
-    "deadline": "2025-08-21T18:30:00.000Z"
+    "deadline": "2025-08-21T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4360",
@@ -411,7 +534,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Product Re-Review (IN LIEU OF- TASK_4350)",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4350",
@@ -420,7 +546,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Product Re-Review",
-    "deadline": "2025-08-22T23:20:54.330Z"
+    "deadline": "2025-08-22T23:20:54.330Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_2655",
@@ -429,7 +558,10 @@
     "Task By": "Sarthak Vaishnav",
     "Task By Contact": "9829651953",
     "taskDetails": "Proto Clean",
-    "deadline": "2025-07-30T06:46:37.863Z"
+    "deadline": "2025-07-30T06:46:37.863Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4369",
@@ -438,7 +570,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "Matra Mobile",
-    "deadline": "2025-09-29T18:30:00.000Z"
+    "deadline": "2025-09-29T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4373",
@@ -447,7 +582,10 @@
     "Task By": "Yashwant Dangi",
     "Task By Contact": "6377206850",
     "taskDetails": "RECONCILE THE LEDGER STATEMENT #FORWARDER AND #CHA",
-    "deadline": "2025-08-30T18:30:00.000Z"
+    "deadline": "2025-08-30T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4342",
@@ -456,7 +594,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Call Mandar Zaware (Marriott)",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4266",
@@ -465,7 +606,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Court Hearing 29-08-2025",
-    "deadline": "2025-08-27T18:30:00.000Z"
+    "deadline": "2025-08-27T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4268",
@@ -474,7 +618,10 @@
     "Task By": "Dhananjay Pradhan",
     "Task By Contact": "6377203178",
     "taskDetails": "Drone Shoot Undri",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4288",
@@ -483,7 +630,10 @@
     "Task By": "Heena Jain",
     "Task By Contact": "9660856769",
     "taskDetails": "PC2526_1252_F_Brigade fairfield at BIAL_MUR",
-    "deadline": "2025-08-20T00:19:21.947Z"
+    "deadline": "2025-08-20T00:19:21.947Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4247",
@@ -492,7 +642,10 @@
     "Task By": "Heena Jain",
     "Task By Contact": "9660856769",
     "taskDetails": "Shop drawing",
-    "deadline": "2025-08-18T22:52:01.800Z"
+    "deadline": "2025-08-18T22:52:01.800Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4325",
@@ -501,7 +654,10 @@
     "Task By": "Saurabh Khetan",
     "Task By Contact": "9799599550",
     "taskDetails": "Pending Products on Wyndham Grand Project",
-    "deadline": "2025-08-22T18:30:00.000Z"
+    "deadline": "2025-08-22T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4368",
@@ -510,7 +666,10 @@
     "Task By": "Yash Wadhwani",
     "Task By Contact": "7340042422",
     "taskDetails": "Invoice Draft- Marvel",
-    "deadline": "2025-08-24T23:41:49.967Z"
+    "deadline": "2025-08-24T23:41:49.967Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4289",
@@ -519,7 +678,10 @@
     "Task By": "Dhruv Modi",
     "Task By Contact": "9509216002",
     "taskDetails": "Packing Material Delivery at Shruti",
-    "deadline": "2025-08-20T18:30:00.000Z"
+    "deadline": "2025-08-20T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4365",
@@ -528,7 +690,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "shipping bill pendency with matching tally daya 31-08-2025",
-    "deadline": "2025-09-14T18:30:00.000Z"
+    "deadline": "2025-09-14T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4346",
@@ -537,7 +702,10 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "complete hospitality billling service with change old purpose code",
-    "deadline": "2025-08-24T18:30:00.000Z"
+    "deadline": "2025-08-24T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   },
   {
     "docCode": "TASK_4367",
@@ -546,6 +714,9 @@
     "Task By": "Shabbir Khan",
     "Task By Contact": "9116134513",
     "taskDetails": "cipro ",
-    "deadline": "2025-09-29T18:30:00.000Z"
+    "deadline": "2025-09-29T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
   }
 ]
