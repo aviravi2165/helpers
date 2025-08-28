@@ -37,8 +37,8 @@
     </style>
   </head>
   <body>
-    <h2>Critical Task Deadlines</h2>
-
+    <h2>Critical Task Deadlines (Whatsapp Alers)</h2>
+    Critical task count : <span id="criticalCount"></span>
     <table>
       <thead>
         <tr>
@@ -61,10 +61,10 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script>
       async function loadTasks() {
+        let criticalCount = 0;
         try {
           const res = await fetch("data.json"); // fetch from same folder
           const tasks = await res.json();
-          console.log(tasks);
 
           const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
           const tbody = document.getElementById("taskTable");
@@ -76,7 +76,10 @@
             const isCritical =
               dayjs().isAfter(task.deadline, "day") ||
               dayjs().isSame(task.deadline, "day");
-            if (isCritical) row.classList.add("critical");
+            if (isCritical) {
+              criticalCount++;
+              row.classList.add("critical");
+            }
 
             if (task.acceptanceStatus === "PENDING") {
               currentStage = "AWAIT ACCEPTANCE";
@@ -139,6 +142,7 @@
         } catch (err) {
           console.error("Error loading tasks:", err);
         }
+        document.getElementById("criticalCount").innerHTML = criticalCount;
       }
 
       loadTasks();
