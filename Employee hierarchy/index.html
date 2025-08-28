@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organizational Hierarchy</title>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+        min-height: 100vh;
+        padding: 20px;
+        color: #2c3e50;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      header {
+        background: linear-gradient(90deg, #3498db, #2c3e50);
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef;
+        flex-wrap: wrap;
+      }
+
+      button {
+        padding: 10px 20px;
+        background: linear-gradient(90deg, #3498db, #2c3e50);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+      }
+
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .search-container {
+        padding: 15px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #e9ecef;
+      }
+
+      #search {
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 500px;
+        border: 1px solid #ddd;
+        border-radius: 50px;
+        font-size: 16px;
+        outline: none;
+        transition: all 0.3s;
+      }
+
+      #search:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+      }
+
+      #hierarchy {
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+        padding: 20px;
+      }
+
+      .node {
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .node:hover {
+        opacity: 0.8;
+      }
+
+      .node rect {
+        fill: white;
+        stroke: #3498db;
+        stroke-width: 2px;
+        rx: 8;
+        ry: 8;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+      }
+
+      .node text {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .node--internal text {
+        font-weight: 700;
+      }
+
+      .link {
+        fill: none;
+        stroke: #95a5a6;
+        stroke-width: 1.5px;
+      }
+
+      .node--leaf rect {
+        fill: #ecf0f1;
+        stroke: #7f8c8d;
+      }
+
+      .node--active rect {
+        stroke: #e74c3c;
+        stroke-width: 3px;
+      }
+
+      .node--inactive rect {
+        stroke: #bdc3c7;
+        stroke-dasharray: 5, 5;
+      }
+
+      .node--inactive text {
+        fill: #bdc3c7;
+      }
+
+      .tooltip {
+        position: absolute;
+        padding: 10px;
+        background-color: #2c3e50;
+        color: white;
+        border-radius: 6px;
+        pointer-events: none;
+        font-size: 14px;
+        z-index: 100;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .level-badge {
+        display: inline-block;
+        padding: 2px 8px;
+        background: #3498db;
+        color: white;
+        border-radius: 10px;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 15px;
+        color: #7f8c8d;
+        font-size: 14px;
+        background-color: #f8f9fa;
+        border-top: 1px solid #e9ecef;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><i class="fas fa-sitemap"></i> Organizational Hierarchy</h1>
+        <p>Interactive visualization of company structure</p>
+      </header>
+
+      <!-- <div class="controls"> -->
+      <!-- <button id="expandAll"><i class="fas fa-expand"></i> Expand All</button>
+        <button id="collapseAll">
+          <i class="fas fa-compress"></i> Collapse All
+        </button> -->
+      <!-- <button id="exportCSV">
+          <i class="fas fa-file-csv"></i> Export to CSV
+        </button> -->
+      <!-- <button id="resetView"><i class="fas fa-sync"></i> Reset View</button> -->
+      <!-- </div> -->
+
+      <!-- <div class="search-container">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search by name, department, or user code..."
+        />
+      </div> -->
+
+      <div id="hierarchy"></div>
+
+      <footer>
+        <p>Click on nodes to expand/collapse. Hover for more details.</p>
+      </footer>
+    </div>
+
+    <script>
+      // Function to load JSON data from file
+      async function loadJSONData() {
+        try {
+          // In a real scenario, you would fetch from your data.json file
+          // For this example, we'll use a sample hierarchy
+          const response = await fetch("data.json");
+          if (!response.ok) {
+            throw new Error("Failed to load data");
+          }
+          const userData = await response.json();
+          return buildHierarchy(userData);
+        } catch (error) {
+          console.error("Error loading JSON data:", error);
+          // Return sample data for demonstration
+          //   return getSampleHierarchy();
+        }
+      }
+
+      // Function to build hierarchy from flat data
+      function buildHierarchy(userData) {
+        // Create a map of user codes to nodes
+        const nodeMap = new Map();
+
+        // First pass: create all nodes
+        userData.forEach((user) => {
+          nodeMap.set(user["User Code"], {
+            name: `${user["First Name"]} ${user["Last Name"]}`,
+            code: user["User Code"],
+            department: user["Department"],
+            isActive: user["isActive"],
+            level: 0, // Will be set later
+            children: [],
+          });
+        });
+
+        // Second pass: build hierarchy
+        const rootNodes = [];
+        userData.forEach((user) => {
+          const userCode = user["User Code"];
+          const managerCode = user["Manager Code"];
+          const currentNode = nodeMap.get(userCode);
+
+          if (managerCode && nodeMap.has(managerCode)) {
+            const managerNode = nodeMap.get(managerCode);
+            managerNode.children.push(currentNode);
+          } else {
+            rootNodes.push(currentNode);
+          }
+        });
+
+        // Calculate levels using BFS
+        const queue = [...rootNodes];
+        while (queue.length > 0) {
+          const currentNode = queue.shift();
+
+          if (currentNode.parent) {
+            currentNode.level = currentNode.parent.level + 1;
+          }
+
+          currentNode.children.forEach((child) => {
+            child.parent = currentNode;
+            queue.push(child);
+          });
+        }
+
+        // Return the root node
+        return {
+          name: "IEVO",
+          code: "ievo",
+          department: "ADMINISTRATION",
+          isActive: 1,
+          level: 0,
+          children: rootNodes,
+        };
+      }
+
+      // Sample data for demonstration
+      //   function getSampleHierarchy() {
+      //     return {
+      //       name: "IEVO",
+      //       code: "ievo",
+      //       department: "ADMINISTRATION",
+      //       isActive: 1,
+      //       level: 0,
+      //       children: [
+      //         {
+      //           name: "Saurabh Khetan",
+      //           code: "SAURABH-1",
+      //           department: "ADMINISTRATION",
+      //           isActive: 1,
+      //           level: 1,
+      //           children: [
+      //             {
+      //               name: "Kunwar Atindra Singh",
+      //               code: "KUNWAR-86",
+      //               department: "MANAGEMENT",
+      //               isActive: 1,
+      //               level: 2,
+      //               children: [
+      //                 {
+      //                   name: "Satish Jangir",
+      //                   code: "SATISH-2892",
+      //                   department: "IN HOUSE MAINTENANCE",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                 },
+      //                 {
+      //                   name: "Kailash Jangir",
+      //                   code: "KAILASH-5852",
+      //                   department: "INSTALLATION",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                 },
+      //               ],
+      //             },
+      //             {
+      //               name: "Dhruv Modi",
+      //               code: "DHRUV-77",
+      //               department: "MANAGEMENT",
+      //               isActive: 1,
+      //               level: 2,
+      //               children: [
+      //                 {
+      //                   name: "Tikam Singh",
+      //                   code: "TIKAM-756",
+      //                   department: "SMC",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                 },
+      //                 {
+      //                   name: "Hemant Kumar",
+      //                   code: "HEMANT-130",
+      //                   department: "OUTDOOR FURNITURE",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                   children: [
+      //                     {
+      //                       name: "Naresh",
+      //                       code: "NARESH-407",
+      //                       department: "METAL",
+      //                       isActive: 1,
+      //                       level: 4,
+      //                     },
+      //                     {
+      //                       name: "Suraj Kumhar",
+      //                       code: "SURAJ-887",
+      //                       department: "METAL",
+      //                       isActive: 1,
+      //                       level: 4,
+      //                     },
+      //                   ],
+      //                 },
+      //               ],
+      //             },
+      //             {
+      //               name: "Ashok Jangir",
+      //               code: "ASHOK-170",
+      //               department: "MANAGEMENT",
+      //               isActive: 1,
+      //               level: 2,
+      //               children: [
+      //                 {
+      //                   name: "Abhilasha Dashora",
+      //                   code: "Abhilasha-7712",
+      //                   department: "PMC",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                 },
+      //                 {
+      //                   name: "Anant Kumar",
+      //                   code: "ANANT-629",
+      //                   department: "DESIGN",
+      //                   isActive: 1,
+      //                   level: 3,
+      //                   children: [
+      //                     {
+      //                       name: "Vinod Jangir",
+      //                       code: "VINOD-7357",
+      //                       department: "DESIGN",
+      //                       isActive: 1,
+      //                       level: 4,
+      //                     },
+      //                     {
+      //                       name: "Mohit Sharma",
+      //                       code: "MOHIT-5960",
+      //                       department: "DESIGN",
+      //                       isActive: 1,
+      //                       level: 4,
+      //                     },
+      //                   ],
+      //                 },
+      //               ],
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //     };
+      //   }
+
+      // Initialize the hierarchy visualization
+      document.addEventListener("DOMContentLoaded", async function () {
+        const data = await loadJSONData();
+        drawHierarchy(data);
+
+        // Set up event listeners for buttons
+        document
+          .getElementById("expandAll")
+          .addEventListener("click", function () {
+            expandAll();
+          });
+
+        document
+          .getElementById("collapseAll")
+          .addEventListener("click", function () {
+            collapseAll();
+          });
+
+        document
+          .getElementById("exportCSV")
+          .addEventListener("click", function () {
+            exportToCSV(data);
+          });
+
+        document
+          .getElementById("resetView")
+          .addEventListener("click", function () {
+            resetView(data);
+          });
+
+        // Set up search functionality
+        document
+          .getElementById("search")
+          .addEventListener("input", function (e) {
+            filterNodes(e.target.value);
+          });
+      });
+
+      // Draw the hierarchy using D3.js with vertical layout
+      function drawHierarchy(data) {
+        const margin = { top: 40, right: 120, bottom: 40, left: 120 };
+        const width =
+          document.getElementById("hierarchy").clientWidth -
+          margin.right -
+          margin.left;
+        const height =
+          document.getElementById("hierarchy").clientHeight -
+          margin.top -
+          margin.bottom;
+
+        // Clear previous visualization
+        d3.select("#hierarchy").html("");
+
+        const svg = d3
+          .select("#hierarchy")
+          .append("svg")
+          .attr("width", width + margin.right + margin.left)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Create tooltip
+        const tooltip = d3
+          .select("body")
+          .append("div")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
+
+        // Create a hierarchy layout with vertical orientation
+        const root = d3.hierarchy(data);
+        const treeLayout = d3.tree().size([height, width - 200]);
+        treeLayout(root);
+
+        // Draw links between nodes with angled lines
+        svg
+          .selectAll(".link")
+          .data(root.links())
+          .enter()
+          .append("path")
+          .attr("class", "link")
+          .attr("d", (d) => {
+            // Create angled lines (elbow connectors)
+            const sourceX = d.source.y;
+            const sourceY = d.source.x;
+            const targetX = d.target.y;
+            const targetY = d.target.x;
+
+            return `M${sourceX},${sourceY} 
+                            H${(sourceX + targetX) / 2} 
+                            V${targetY} 
+                            H${targetX}`;
+          });
+
+        // Create node groups
+        const node = svg
+          .selectAll(".node")
+          .data(root.descendants())
+          .enter()
+          .append("g")
+          .attr("class", (d) => {
+            let classes = "node";
+            if (d.children) classes += " node--internal";
+            else classes += " node--leaf";
+            if (d.data.isActive === 0) classes += " node--inactive";
+            return classes;
+          })
+          .attr("transform", (d) => `translate(${d.y},${d.x})`)
+          .on("click", function (event, d) {
+            if (d.children) {
+              d._children = d.children;
+              d.children = null;
+            } else {
+              d.children = d._children;
+              d._children = null;
+            }
+            update(d);
+          })
+          .on("mouseover", function (event, d) {
+            tooltip.transition().duration(200).style("opacity", 0.9);
+            tooltip
+              .html(
+                `
+                        <strong>${d.data.name}</strong><br>
+                        Code: ${d.data.code}<br>
+                        Department: ${d.data.department}<br>
+                        Level: ${d.data.level}<br>
+                        Status: ${d.data.isActive ? "Active" : "Inactive"}
+                    `
+              )
+              .style("left", event.pageX + 10 + "px")
+              .style("top", event.pageY - 28 + "px");
+          })
+          .on("mouseout", function () {
+            tooltip.transition().duration(500).style("opacity", 0);
+          });
+
+        // Draw node rectangles
+        node
+          .append("rect")
+          .attr("x", -80)
+          .attr("y", -25)
+          .attr("width", 160)
+          .attr("height", 50);
+
+        // Add node text
+        node
+          .append("text")
+          .attr("dy", -5)
+          .attr("text-anchor", "middle")
+          .text((d) => {
+            const name =
+              d.data.name.length > 20
+                ? d.data.name.substring(0, 17) + "..."
+                : d.data.name;
+            return name;
+          });
+
+        // Add department text
+        node
+          .append("text")
+          .attr("dy", 15)
+          .attr("text-anchor", "middle")
+          .attr("font-size", "12px")
+          .text((d) => {
+            const dept =
+              d.data.department.length > 20
+                ? d.data.department.substring(0, 17) + "..."
+                : d.data.department;
+            return dept;
+          });
+
+        // Add level badge
+        node
+          .append("text")
+          .attr("x", 60)
+          .attr("y", -10)
+          .attr("text-anchor", "middle")
+          .attr("class", "level-badge")
+          .text((d) => `L${d.data.level}`);
+
+        // Update function for expanding/collapsing nodes
+        function update(source) {
+          const duration = 250;
+          const treeData = treeLayout(root);
+
+          // Update nodes
+          const nodes = treeData.descendants();
+          const node = svg
+            .selectAll("g.node")
+            .data(nodes, (d) => d.id || (d.id = ++i));
+
+          // Enter any new nodes
+          const nodeEnter = node
+            .enter()
+            .append("g")
+            .attr("class", (d) => {
+              let classes = "node";
+              if (d.children) classes += " node--internal";
+              else classes += " node--leaf";
+              if (d.data.isActive === 0) classes += " node--inactive";
+              return classes;
+            })
+            .attr("transform", (d) => `translate(${source.y0},${source.x0})`)
+            .on("click", function (event, d) {
+              if (d.children) {
+                d._children = d.children;
+                d.children = null;
+              } else {
+                d.children = d._children;
+                d._children = null;
+              }
+              update(d);
+            })
+            .on("mouseover", function (event, d) {
+              tooltip.transition().duration(200).style("opacity", 0.9);
+              tooltip
+                .html(
+                  `
+                            <strong>${d.data.name}</strong><br>
+                            Code: ${d.data.code}<br>
+                            Department: ${d.data.department}<br>
+                            Level: ${d.data.level}<br>
+                            Status: ${d.data.isActive ? "Active" : "Inactive"}
+                        `
+                )
+                .style("left", event.pageX + 10 + "px")
+                .style("top", event.pageY - 28 + "px");
+            })
+            .on("mouseout", function () {
+              tooltip.transition().duration(500).style("opacity", 0);
+            });
+
+          nodeEnter
+            .append("rect")
+            .attr("x", -80)
+            .attr("y", -25)
+            .attr("width", 160)
+            .attr("height", 50);
+
+          nodeEnter
+            .append("text")
+            .attr("dy", -5)
+            .attr("text-anchor", "middle")
+            .text((d) => {
+              const name =
+                d.data.name.length > 20
+                  ? d.data.name.substring(0, 17) + "..."
+                  : d.data.name;
+              return name;
+            });
+
+          nodeEnter
+            .append("text")
+            .attr("dy", 15)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "12px")
+            .text((d) => {
+              const dept =
+                d.data.department.length > 20
+                  ? d.data.department.substring(0, 17) + "..."
+                  : d.data.department;
+              return dept;
+            });
+
+          nodeEnter
+            .append("text")
+            .attr("x", 60)
+            .attr("y", -10)
+            .attr("text-anchor", "middle")
+            .attr("class", "level-badge")
+            .text((d) => `L${d.data.level}`);
+
+          // Transition nodes to their new position
+          const nodeUpdate = nodeEnter.merge(node);
+          nodeUpdate
+            .transition()
+            .duration(duration)
+            .attr("transform", (d) => `translate(${d.y},${d.x})`);
+
+          // Transition exiting nodes
+          node
+            .exit()
+            .transition()
+            .duration(duration)
+            .attr("transform", `translate(${source.y},${source.x})`)
+            .remove();
+
+          // Update the links
+          const links = treeData.links();
+          const link = svg
+            .selectAll("path.link")
+            .data(links, (d) => d.target.id);
+
+          // Enter any new links
+          const linkEnter = link
+            .enter()
+            .append("path")
+            .attr("class", "link")
+            .attr("d", (d) => {
+              // Create angled lines (elbow connectors)
+              const sourceX = source.y0;
+              const sourceY = source.x0;
+              const targetX = source.y0;
+              const targetY = source.x0;
+
+              return `M${sourceX},${sourceY} 
+                                H${(sourceX + targetX) / 2} 
+                                V${targetY} 
+                                H${targetX}`;
+            });
+
+          // Transition links to their new position
+          linkEnter
+            .merge(link)
+            .transition()
+            .duration(duration)
+            .attr("d", (d) => {
+              // Create angled lines (elbow connectors)
+              const sourceX = d.source.y;
+              const sourceY = d.source.x;
+              const targetX = d.target.y;
+              const targetY = d.target.x;
+
+              return `M${sourceX},${sourceY} 
+                                H${(sourceX + targetX) / 2} 
+                                V${targetY} 
+                                H${targetX}`;
+            });
+
+          // Transition exiting links
+          link
+            .exit()
+            .transition()
+            .duration(duration)
+            .attr("d", (d) => {
+              // Create angled lines (elbow connectors)
+              const sourceX = source.y;
+              const sourceY = source.x;
+              const targetX = source.y;
+              const targetY = source.x;
+
+              return `M${sourceX},${sourceY} 
+                                H${(sourceX + targetX) / 2} 
+                                V${targetY} 
+                                H${targetX}`;
+            })
+            .remove();
+
+          // Stash the old positions for transition
+          nodes.forEach((d) => {
+            d.x0 = d.x;
+            d.y0 = d.y;
+          });
+        }
+
+        let i = 0;
+        root.x0 = height / 2;
+        root.y0 = 0;
+
+        // Collapse all nodes initially
+        root.descendants().forEach((d) => {
+          if (d.depth > 0) {
+            d._children = d.children;
+            d.children = null;
+          }
+        });
+
+        update(root);
+      }
+
+      // Expand all nodes
+      function expandAll() {
+        // Implementation would traverse the tree and expand all nodes
+        alert("Expanding all nodes...");
+      }
+
+      // Collapse all nodes
+      function collapseAll() {
+        // Implementation would traverse the tree and collapse all nodes
+        alert("Collapsing all nodes...");
+      }
+
+      // Reset view to initial state
+      function resetView(data) {
+        drawHierarchy(data);
+      }
+
+      // Filter nodes based on search input
+      function filterNodes(query) {
+        // Implementation would highlight nodes matching the search query
+        if (query.length > 2) {
+          console.log(`Searching for: ${query}`);
+        }
+      }
+
+      // Export to CSV function
+      function exportToCSV(data) {
+        // Flatten the hierarchy for CSV export
+        const flatData = [];
+        const queue = [{ ...data, level: 0 }];
+
+        while (queue.length > 0) {
+          const node = queue.shift();
+
+          flatData.push({
+            "User Code": node.code,
+            "First Name": node.name.split(" ")[0],
+            "Last Name": node.name.split(" ").slice(1).join(" "),
+            isActive: node.isActive,
+            Department: node.department,
+            Level: node.level,
+          });
+
+          if (node.children) {
+            node.children.forEach((child) => {
+              queue.push({ ...child, level: node.level + 1 });
+            });
+          }
+        }
+
+        // Convert to CSV
+        const headers = [
+          "User Code",
+          "First Name",
+          "Last Name",
+          "isActive",
+          "Department",
+          "Level",
+        ];
+        const csvContent = [
+          headers.join(","),
+          ...flatData.map((row) =>
+            headers
+              .map((header) => {
+                const value = row[header];
+                return typeof value === "string" && value.includes(",")
+                  ? `"${value}"`
+                  : value;
+              })
+              .join(",")
+          ),
+        ].join("\n");
+
+        // Download CSV
+        const blob = new Blob([csvContent], {
+          type: "text/csv;charset=utf-8;",
+        });
+        const link = document.createElement("a");
+        const url = URL.createObjectURL(blob);
+        link.setAttribute("href", url);
+        link.setAttribute(
+          "download",
+          `organization_hierarchy_${dayjs().format("YYYY-MM-DD")}.csv`
+        );
+        link.style.visibility = "hidden";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+  </body>
+</html>
