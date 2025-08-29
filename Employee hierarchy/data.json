@@ -1,0 +1,4466 @@
+[
+  {
+    "User Code": "KARUNA-993",
+    "First Name": "Karuna",
+    "Last Name": "Nidhan",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "TULSI-897",
+    "First Name": "Tulsi Ram",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "F&B",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "JITENDRA-348",
+    "First Name": "JITENDRA",
+    "Last Name": "MADDHESHYA",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "Hardik-7771",
+    "First Name": "Hardik",
+    "Last Name": "Mehta",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Mayank Dhawan",
+    "Manager Code": "MAYANK-7417"
+  },
+  {
+    "User Code": "AJAY-927",
+    "First Name": "Ajay Singh",
+    "Last Name": "Rathore",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MAYANK-5695",
+    "First Name": "Mayank",
+    "Last Name": "Ameta",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Lakshmi Shanker",
+    "Manager Code": "LAKSHMI-6173"
+  },
+  {
+    "User Code": "SUMER-7971",
+    "First Name": "SUMER",
+    "Last Name": "SINGH",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "TIKAM-756",
+    "First Name": "Tikam",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "JEEVA-7284",
+    "First Name": "Jeeva",
+    "Last Name": "Ram",
+    "isActive": 0,
+    "Department": "CNC",
+    "Manager Name": "Harjeet Singh Rana",
+    "Manager Code": "HARJEET-107"
+  },
+  {
+    "User Code": "PRAKHAR-6435",
+    "First Name": "Prakhar",
+    "Last Name": "Tripathi",
+    "isActive": 0,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "VIPIN-6640",
+    "First Name": "Vipin",
+    "Last Name": "Garg",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "MOHAMMED-299",
+    "First Name": "Mohammed Aezaj",
+    "Last Name": "Aalam",
+    "isActive": 1,
+    "Department": "MAINTENANCE_HVAC",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "RITIKA-785",
+    "First Name": "Ritika",
+    "Last Name": "Patel",
+    "isActive": 0,
+    "Department": "PMC",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "VINOD-7357",
+    "First Name": "Vinod",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Anant Kumar",
+    "Manager Code": "ANANT-629"
+  },
+  {
+    "User Code": "SANJAY-5116",
+    "First Name": "Sanjay",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "DHARMENDRA-4574",
+    "First Name": "Dharmendra Singh",
+    "Last Name": "Jhala",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "HIMANSHI-7679",
+    "First Name": "HIMANSHI",
+    "Last Name": "BAGRECHA",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "BHARAT-7035",
+    "First Name": "Bharat",
+    "Last Name": "Lal",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "JAGDISH-237",
+    "First Name": "JAGDISH",
+    "Last Name": "SHARMA",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "BHUPESH-6401",
+    "First Name": "Bhupesh Kumar",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "DEVENDRA-30272",
+    "First Name": "DEVENDRA",
+    "Last Name": "SINGH CHOUHAN",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "RAKESH-7922",
+    "First Name": "RAKESH",
+    "Last Name": "SAIN",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MOHIT-5960",
+    "First Name": "Mohit",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Anant Kumar",
+    "Manager Code": "ANANT-629"
+  },
+  {
+    "User Code": "BODHLAL-342",
+    "First Name": "BODHLAL",
+    "Last Name": "VISHWAKARMA",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "narendra-7908",
+    "First Name": "Narendra Pratap",
+    "Last Name": "Singh Chouhan",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "PAWAN-6602",
+    "First Name": "Pawan",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "VASEEM-184",
+    "First Name": "Vaseem Ahmed",
+    "Last Name": "Sheikh",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "MOHAN-339",
+    "First Name": "Mohan",
+    "Last Name": "Vishwakarma",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "NISHCHAY-7441",
+    "First Name": "Nishchay",
+    "Last Name": "Chauhan",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "ASTHA-3",
+    "First Name": "Astha",
+    "Last Name": "Khetan",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "IEVO",
+    "Manager Code": "ievo"
+  },
+  {
+    "User Code": "Abhilasha-7712",
+    "First Name": "Abhilasha",
+    "Last Name": "Dashora",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "VINOD-41",
+    "First Name": "Vinod Kumar",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "LED",
+    "Manager Name": "Abdul Kadir Khan",
+    "Manager Code": "ABDUL-39"
+  },
+  {
+    "User Code": "PAPPU-981",
+    "First Name": "Pappu",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "AKSHAY-6931",
+    "First Name": "Akshay",
+    "Last Name": "Bhanawat",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "BISWAJIT-7291",
+    "First Name": "Biswajit",
+    "Last Name": "Maharana",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MAHENDRA-6914",
+    "First Name": "Mahendra",
+    "Last Name": "Teli",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "Urvashi-7711",
+    "First Name": "Urvashi",
+    "Last Name": "Sarangdevot",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Ritik Goutam",
+    "Manager Code": "RITIK-7536"
+  },
+  {
+    "User Code": "DINESH-490",
+    "First Name": "Dinesh",
+    "Last Name": "Meghwal",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "NARESH-407",
+    "First Name": "Naresh",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "NAYAN-6369",
+    "First Name": "Nayan Ranjan",
+    "Last Name": "Chattopadhyay",
+    "isActive": 0,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "KUNWAR-86",
+    "First Name": "Kunwar Atindra",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "OJAS-6429",
+    "First Name": "Ojas Sunil",
+    "Last Name": "Gupta",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "DHRUV-77",
+    "First Name": "Dhruv",
+    "Last Name": "Modi",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "KARTIK-7549",
+    "First Name": "Kartik",
+    "Last Name": "Khatik",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "IZHAAN-6082",
+    "First Name": "Izhaan Ahmed",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "MAINTENANCE_HVAC",
+    "Manager Name": "Mohammed Aezaj Aalam",
+    "Manager Code": "MOHAMMED-299"
+  },
+  {
+    "User Code": "RAKESH-8051",
+    "First Name": "RAKESH",
+    "Last Name": "PALIWAL",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Kumawat",
+    "Manager Code": "PANKAJ-4093"
+  },
+  {
+    "User Code": "DINESH-5190",
+    "First Name": "Dinesh Kumar",
+    "Last Name": "Sharma",
+    "isActive": 0,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SHABBIR-7063",
+    "First Name": "Shabbir",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "RAJEEV-307",
+    "First Name": "Rajeev",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Dharam Singh Chundawat",
+    "Manager Code": "DHARAM-274"
+  },
+  {
+    "User Code": "PIYUSH-7241",
+    "First Name": "Piyush",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MOHAMMED-968",
+    "First Name": "Mohammed Akeel",
+    "Last Name": "Sheikh",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "KAMLESH-5533",
+    "First Name": "Kamlesh",
+    "Last Name": "Bagri",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Chandra Bhan Singh",
+    "Manager Code": "CHANDRA-7240"
+  },
+  {
+    "User Code": "NEHA-190",
+    "First Name": "Neha",
+    "Last Name": "Srivastava",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Astha Khetan",
+    "Manager Code": "ASTHA-3"
+  },
+  {
+    "User Code": "SATISH-2892",
+    "First Name": "Satish",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "IN HOUSE MAINTENANCE",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "MOHAMMAD-5863",
+    "First Name": "Mohammad",
+    "Last Name": "Adil",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Krishna Pal",
+    "Manager Code": "KRISHNA-4293"
+  },
+  {
+    "User Code": "TRILOK-7697",
+    "First Name": "TRILOK",
+    "Last Name": "SUTHAR",
+    "isActive": 0,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "amit-7892",
+    "First Name": "Amit",
+    "Last Name": "Choudhary",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "LALIT-7243",
+    "First Name": "Lalit",
+    "Last Name": "Upadhyay",
+    "isActive": 1,
+    "Department": "HOUSEKEEPING",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "KAILASH-5852",
+    "First Name": "Kailash",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "BHARAT-6491",
+    "First Name": "Bharat",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "HARISH-44",
+    "First Name": "Harish",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "LED",
+    "Manager Name": "Abdul Kadir Khan",
+    "Manager Code": "ABDUL-39"
+  },
+  {
+    "User Code": "ASHOK-170",
+    "First Name": "Ashok",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "RITESH-7686",
+    "First Name": "RITESH",
+    "Last Name": "SHARMA",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MANOHAR-1663",
+    "First Name": "Manohar Lal",
+    "Last Name": "Gayri",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "ROHIT-7186",
+    "First Name": "Rohit",
+    "Last Name": "Vasita",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SANTOSH-371",
+    "First Name": "Santosh",
+    "Last Name": "Prajapati",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "Narendra-7719",
+    "First Name": "Narendra",
+    "Last Name": "Mali",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "PANKAJ-72",
+    "First Name": "Pankaj",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Nikhil S Nalwaya",
+    "Manager Code": "NIKHIL-7190"
+  },
+  {
+    "User Code": "DHARAM-274",
+    "First Name": "Dharam Singh",
+    "Last Name": "Chundawat",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "TANSHI-7283",
+    "First Name": "Tanshi",
+    "Last Name": "Chaturvedi",
+    "isActive": 0,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "SUNIL-217",
+    "First Name": "Sunil",
+    "Last Name": "",
+    "isActive": 0,
+    "Department": "PANEL WORKS SURFACE FINISH",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "ANURAG-7613",
+    "First Name": "Anurag",
+    "Last Name": "Mukherjee",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "KAMESHVAR-245",
+    "First Name": "Kameshvar",
+    "Last Name": "Prasad",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Dharam Singh Chundawat",
+    "Manager Code": "DHARAM-274"
+  },
+  {
+    "User Code": "ANIL-644",
+    "First Name": "ANIL",
+    "Last Name": "KUMAR",
+    "isActive": 1,
+    "Department": "OUTDOOR FURNITURE",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "GIRISH-5361",
+    "First Name": "Girish",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "AYUSHMAN-837",
+    "First Name": "Ayushman",
+    "Last Name": "Solanki",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Danish-7977",
+    "First Name": "Danish",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "Founders Office",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "AAMIR-915",
+    "First Name": "Aamir",
+    "Last Name": "Hitawala",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "TUSHAL-6679",
+    "First Name": "Tushal",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "HEMANT-130",
+    "First Name": "Hemant",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "OUTDOOR FURNITURE",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "DEEPAK-881",
+    "First Name": "Deepak",
+    "Last Name": "Shrimali",
+    "isActive": 1,
+    "Department": "SOLID WOOD SURFACE FINISH",
+    "Manager Name": "Ramsagar ",
+    "Manager Code": "RAMSAGAR-205"
+  },
+  {
+    "User Code": "NAND-761",
+    "First Name": "Nand",
+    "Last Name": "Kishor",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "RAKESH-4940",
+    "First Name": "Rakesh Kumar",
+    "Last Name": "Saini",
+    "isActive": 0,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Dinesh Kumar Sharma",
+    "Manager Code": "DINESH-5190"
+  },
+  {
+    "User Code": "pcdDept",
+    "First Name": "Pcd",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "HARJEET-107",
+    "First Name": "Harjeet Singh",
+    "Last Name": "Rana",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "RAMPUNIT-7547",
+    "First Name": "Rampunit",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "ASHWANI-764",
+    "First Name": "Ashwani",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "RAJU-639",
+    "First Name": "Raju",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "OUTDOOR FURNITURE",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "VISHNU-379",
+    "First Name": "VISHNU",
+    "Last Name": "SINGH",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "Richa-7725",
+    "First Name": "Richa",
+    "Last Name": "Rao",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "BHAWANI-7112",
+    "First Name": "Bhawani Singh",
+    "Last Name": "Charan",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "SAURABH-1",
+    "First Name": "Saurabh",
+    "Last Name": "Khetan",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "IEVO",
+    "Manager Code": "ievo"
+  },
+  {
+    "User Code": "CHIRAG-7471",
+    "First Name": "Chirag",
+    "Last Name": "Jingar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "ISHAN-7079",
+    "First Name": "Ishan",
+    "Last Name": "Kshatriya",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Himanshu Kumar Kanogiya",
+    "Manager Code": "HIMANSHU-5904"
+  },
+  {
+    "User Code": "SUBHASH-4860",
+    "First Name": "Subhash",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "UPHOLSTERY",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "ADITYA-111",
+    "First Name": "Aditya",
+    "Last Name": "Vyas",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "SUVIDH-7374",
+    "First Name": "Suvidh",
+    "Last Name": "Patni",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "ABDUL-943",
+    "First Name": "Abdul",
+    "Last Name": "Rauf",
+    "isActive": 1,
+    "Department": "MAINTENANCE_HVAC",
+    "Manager Name": "Mohammed Aezaj Aalam",
+    "Manager Code": "MOHAMMED-299"
+  },
+  {
+    "User Code": "BHUSHAN-7013",
+    "First Name": "Bhushan Unmesh",
+    "Last Name": "Nehete",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Deepa Narendra Ganediwal",
+    "Manager Code": "DEEPA-7014"
+  },
+  {
+    "User Code": "DEEPAK-6125",
+    "First Name": "Deepak",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "clientApprovalPr",
+    "First Name": "Client Approval Pr",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "DINESH-853",
+    "First Name": "Dinesh Singh",
+    "Last Name": "Rawat",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "Rajveer-30217",
+    "First Name": "Rajveer",
+    "Last Name": "Chanal",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "MONA-7621",
+    "First Name": "Mona Singh",
+    "Last Name": "Rao",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "Lokendra-7996",
+    "First Name": "Lokendra Singh",
+    "Last Name": "Rathore",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Mohd Tousif Khan",
+    "Manager Code": "TOUSIF-85"
+  },
+  {
+    "User Code": "RAHUL-5119",
+    "First Name": "Rahul",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "CIVIL",
+    "Manager Name": "Siddharth Sharma",
+    "Manager Code": "SIDDHARTH-5955"
+  },
+  {
+    "User Code": "SURAJ-887",
+    "First Name": "Suraj",
+    "Last Name": "Kumhar",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "RANA-6741",
+    "First Name": "Rana",
+    "Last Name": "Ram",
+    "isActive": 0,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MANOJ-7952",
+    "First Name": "MANOJ",
+    "Last Name": "KUMAR",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "MOHAN-4948",
+    "First Name": "Mohan Lal",
+    "Last Name": "Suthar",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Nikhil S Nalwaya",
+    "Manager Code": "NIKHIL-7190"
+  },
+  {
+    "User Code": "BHARAT-1723",
+    "First Name": "Bharat",
+    "Last Name": "Rebari",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "PRANVANSHU-966",
+    "First Name": "Pranvanshu",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "MOHIT PARIKH",
+    "Manager Code": "MOHIT-125"
+  },
+  {
+    "User Code": "PARAS-7455",
+    "First Name": "Paras Mal",
+    "Last Name": "Rebari",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Mohd Tousif Khan",
+    "Manager Code": "TOUSIF-85"
+  },
+  {
+    "User Code": "RAMA-1472",
+    "First Name": "Rama",
+    "Last Name": "Kishan",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "Mayur-8043",
+    "First Name": "Mayur",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "pmc3-test",
+    "First Name": "PMC 3",
+    "Last Name": "Test",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "BDC Head Test",
+    "Manager Code": "bdc-hod-test"
+  },
+  {
+    "User Code": "MANGLESH-5729",
+    "First Name": "Manglesh",
+    "Last Name": "Tailor",
+    "isActive": 1,
+    "Department": "UPHOLSTERY",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "EZEBIRI-7140",
+    "First Name": "Ezebiri Tushar",
+    "Last Name": "Usoh",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "NIKHIL-7190",
+    "First Name": "Nikhil S",
+    "Last Name": "Nalwaya",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "NAYAN-7660",
+    "First Name": "NAYAN",
+    "Last Name": "CHOUKSEY",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Harjeet Singh Rana",
+    "Manager Code": "HARJEET-107"
+  },
+  {
+    "User Code": "SHUBHAM-987",
+    "First Name": "Shubham",
+    "Last Name": "Paneri",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "SHAKTI-4612",
+    "First Name": "Shakti Singh",
+    "Last Name": "Jhala",
+    "isActive": 1,
+    "Department": "CONSULTANT",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "BHUPENDRA-6863",
+    "First Name": "Bhupendra",
+    "Last Name": "Singh",
+    "isActive": 0,
+    "Department": "CIVIL",
+    "Manager Name": "Siddharth Sharma",
+    "Manager Code": "SIDDHARTH-5955"
+  },
+  {
+    "User Code": "VIDIT-7172",
+    "First Name": "Vidit",
+    "Last Name": "Gupta",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "SHIVAM-7669",
+    "First Name": "SHIVAM",
+    "Last Name": "JAISWAL",
+    "isActive": 1,
+    "Department": "UPHOLSTERY",
+    "Manager Name": "Naveen Kumar Rai",
+    "Manager Code": "NAVEEN-7293"
+  },
+  {
+    "User Code": "HITESH-937",
+    "First Name": "Hitesh",
+    "Last Name": "Teli",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "DHANANJAY-849",
+    "First Name": "Dhananjay",
+    "Last Name": "Pradhan",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "ABHISHEK-6705",
+    "First Name": "Abhishek",
+    "Last Name": "Yadav",
+    "isActive": 0,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Dhananjay Pradhan",
+    "Manager Code": "DHANANJAY-849"
+  },
+  {
+    "User Code": "MAYANK-7667",
+    "First Name": "MAYANK",
+    "Last Name": "SHARMA",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Nikhil S Nalwaya",
+    "Manager Code": "NIKHIL-7190"
+  },
+  {
+    "User Code": "ANIKATE-5378",
+    "First Name": "Anikate",
+    "Last Name": "Paryal",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "WILSON-930",
+    "First Name": "Wilson",
+    "Last Name": "David",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "CHANDRAKANT-15",
+    "First Name": "Chandrakant",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "RAJSHREE-906",
+    "First Name": "Rajshree",
+    "Last Name": "Rathore",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "SAMRAT-5201",
+    "First Name": "Samrat Singh",
+    "Last Name": "Panwar",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ayush Jinger",
+    "Manager Code": "AYUSH-3595"
+  },
+  {
+    "User Code": "productionDept",
+    "First Name": "Production",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "bdc-hod-test",
+    "First Name": "BDC Head",
+    "Last Name": "Test",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "SANJEEV-613",
+    "First Name": "Sanjeev",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "RAVI-6729",
+    "First Name": "Ravi",
+    "Last Name": "Taparia",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "PANKAJ-5876",
+    "First Name": "Pankaj Kumar",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "ANANT-629",
+    "First Name": "Anant",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MANISH-5339",
+    "First Name": "Manish",
+    "Last Name": "Tailor",
+    "isActive": 0,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "ANAND-1926",
+    "First Name": "Anand",
+    "Last Name": "Kanojiya",
+    "isActive": 1,
+    "Department": "MMT",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "MAHENDRA-7512",
+    "First Name": "Mahendra",
+    "Last Name": "Rebari",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "JAYESH-7643",
+    "First Name": "Jayesh Kumar",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "protoProductionDept",
+    "First Name": "Proto Production",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "RAHUL-7347",
+    "First Name": "Rahul",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "PIYUSH-8050",
+    "First Name": "PIYUSH",
+    "Last Name": "RAMAWAT",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "VINOD-799",
+    "First Name": "Vinod",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "DEVI-4486",
+    "First Name": "DEVI",
+    "Last Name": "LAL REBARI",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "HIMANSHU-920",
+    "First Name": "Himanshu",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Lakshmi Shanker",
+    "Manager Code": "LAKSHMI-6173"
+  },
+  {
+    "User Code": "TOUSIF-85",
+    "First Name": "Mohd Tousif",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "MANISH-851",
+    "First Name": "Manish",
+    "Last Name": "Paliwal",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "SURESH-4745",
+    "First Name": "Suresh",
+    "Last Name": "Nath",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "PRASHANT-821",
+    "First Name": "Prashant",
+    "Last Name": "Sanadhya",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "Kundan Kumar-7826",
+    "First Name": "Kundan Kumar",
+    "Last Name": "Rana",
+    "isActive": 0,
+    "Department": "PMC",
+    "Manager Name": "Ritika Patel",
+    "Manager Code": "RITIKA-785"
+  },
+  {
+    "User Code": "ANISH-5884",
+    "First Name": "Anish Kumar",
+    "Last Name": "Rana",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "protoDept",
+    "First Name": "Proto",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "PANKAJ-4093",
+    "First Name": "Pankaj",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "PRAKASH-5964",
+    "First Name": "Prakash",
+    "Last Name": "Ojha",
+    "isActive": 0,
+    "Department": "PCD",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "ABHISHEK-890",
+    "First Name": "Abhishek",
+    "Last Name": "Dubey",
+    "isActive": 1,
+    "Department": "PANEL WORKS ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "KAMLESH-259",
+    "First Name": "Kamlesh",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "HABUFA",
+    "Manager Name": "Pradeep Kumar Jangir",
+    "Manager Code": "PRADEEP-859"
+  },
+  {
+    "User Code": "MAHENDRA-6685",
+    "First Name": "Mahendra Singh",
+    "Last Name": "Rajput",
+    "isActive": 0,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "RAMSAGAR-205",
+    "First Name": "Ramsagar",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "SOLID WOOD SURFACE FINISH",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "LAKSHMI-6173",
+    "First Name": "Lakshmi",
+    "Last Name": "Shanker",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "GOURAV-933",
+    "First Name": "Gourav",
+    "Last Name": "Vairagi",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "PRABHAV-30101",
+    "First Name": "Prabhav Singh",
+    "Last Name": "Sisodiya",
+    "isActive": 1,
+    "Department": "HABUFA",
+    "Manager Name": "Pradeep Kumar Jangir",
+    "Manager Code": "PRADEEP-859"
+  },
+  {
+    "User Code": "VISHAL-7647",
+    "First Name": "Vishal",
+    "Last Name": "Nagda",
+    "isActive": 0,
+    "Department": "INSTALLATION",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "YASH-5999",
+    "First Name": "Yash",
+    "Last Name": "Saxena",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "Nikhil-7997",
+    "First Name": "Nikhil",
+    "Last Name": "Gour",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "AJIT-942",
+    "First Name": "Ajit",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "HARSHIT-6860",
+    "First Name": "Harshit",
+    "Last Name": "Soni",
+    "isActive": 0,
+    "Department": "DESIGN",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "ROHIT-6866",
+    "First Name": "Rohit",
+    "Last Name": "Diwakar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "RAHUL-7972",
+    "First Name": "RAHUL",
+    "Last Name": "PANDIT",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "MOHIT-5985",
+    "First Name": "Mohit",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "PUSHKAR-30033",
+    "First Name": "Pushkar Kumar",
+    "Last Name": "Varma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "AJAY-5222",
+    "First Name": "Ajay",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "ASHOK-7853",
+    "First Name": "ASHOK",
+    "Last Name": "PADMARAM",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "NAKUL-6497",
+    "First Name": "Nakul",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "JIGNESH-5097",
+    "First Name": "Jignesh",
+    "Last Name": "Choubisa",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "HIMANSHU-30086",
+    "First Name": "Himanshu",
+    "Last Name": "Dangi",
+    "isActive": 0,
+    "Department": "DISPATCH",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "RAHUL-7462",
+    "First Name": "Rahul",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Suraya-7726",
+    "First Name": "Suryaveer Singh",
+    "Last Name": "Sisodia",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "NIRMAL-5939",
+    "First Name": "Nirmal",
+    "Last Name": "Bargal",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Nikhil S Nalwaya",
+    "Manager Code": "NIKHIL-7190"
+  },
+  {
+    "User Code": "GOPAL-6526",
+    "First Name": "Gopal",
+    "Last Name": "Khatik",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "RAJAT-7365",
+    "First Name": "Rajat",
+    "Last Name": "Singh",
+    "isActive": 0,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "MAHENDRA-995",
+    "First Name": "Mahendra",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "NAHID-6897",
+    "First Name": "Nahid",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "MAINTENANCE_HVAC",
+    "Manager Name": "Mohammed Aezaj Aalam",
+    "Manager Code": "MOHAMMED-299"
+  },
+  {
+    "User Code": "DIMPLE-7592",
+    "First Name": "Dimple",
+    "Last Name": "Dodiya",
+    "isActive": 0,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Hemendra-7718",
+    "First Name": "Hemendra Singh",
+    "Last Name": "Panwar",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Dhananjay Pradhan",
+    "Manager Code": "DHANANJAY-849"
+  },
+  {
+    "User Code": "rajat-7937",
+    "First Name": "Rajat",
+    "Last Name": "Rajat",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "BAJRANG-1980",
+    "First Name": "Bajrang",
+    "Last Name": "Lal",
+    "isActive": 0,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "PANKAJ-232",
+    "First Name": "Pankaj",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "CHANDRA-7240",
+    "First Name": "Chandra Bhan",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SIDDHARTH-5955",
+    "First Name": "Siddharth",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "SHIV-279",
+    "First Name": "Shiv Shankar",
+    "Last Name": "Thakur",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SURYA-6791",
+    "First Name": "Surya Pratap",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Bhawani Singh Shekhawat",
+    "Manager Code": "BHAWANI-6081"
+  },
+  {
+    "User Code": "BHAWANI-5811",
+    "First Name": "Bhawani",
+    "Last Name": "Vyas",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "pmc2-test",
+    "First Name": "PMC 2",
+    "Last Name": "Test",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "BDC Head Test",
+    "Manager Code": "bdc-hod-test"
+  },
+  {
+    "User Code": "DEEPESH-6895",
+    "First Name": "Deepesh",
+    "Last Name": "Johari",
+    "isActive": 0,
+    "Department": "ERP",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "NAMAN-8053",
+    "First Name": "NAMAN",
+    "Last Name": "SHRIMALI",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "DHEERAJ-804",
+    "First Name": "Dheeraj",
+    "Last Name": "Nagda",
+    "isActive": 1,
+    "Department": "PANEL WORKS SURFACE FINISH",
+    "Manager Name": "TARKESHWAR",
+    "Manager Code": "TARKESHWAR-280"
+  },
+  {
+    "User Code": "YUVRAJ-7652",
+    "First Name": "Yuvraj",
+    "Last Name": "Khandelwal",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "Ankur-7808",
+    "First Name": "Ankur",
+    "Last Name": "Vishwakarma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Anant Kumar",
+    "Manager Code": "ANANT-629"
+  },
+  {
+    "User Code": "Vikash-7768",
+    "First Name": "Vikash",
+    "Last Name": ".",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "swadesh-7859",
+    "First Name": "Swadesh",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "TANUJ-7268",
+    "First Name": "Tanuj Kailash",
+    "Last Name": "Raikwar",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "ABHISHEK-2003",
+    "First Name": "Abhishek",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "BHARGAVI-7012",
+    "First Name": "Bhargavi",
+    "Last Name": "Babel",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "DHARMENDRA-7486",
+    "First Name": "Dharmendra",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Naresh Kumar Jangid",
+    "Manager Code": "NARESH-857"
+  },
+  {
+    "User Code": "SANDIP-442",
+    "First Name": "Sandip",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "PANEL WORKS SURFACE FINISH",
+    "Manager Name": "TARKESHWAR",
+    "Manager Code": "TARKESHWAR-280"
+  },
+  {
+    "User Code": "SAIYED-7546",
+    "First Name": "Saiyed Shoaib",
+    "Last Name": "Hussain",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "RAJARAM-886",
+    "First Name": "Rajaram",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "SUNDAY WAREHOUSE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "ABDUL-959",
+    "First Name": "Abdul Faizan",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "PRATYASHA-6339",
+    "First Name": "Pratyasha",
+    "Last Name": "Sarangi",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "KUNAL-6871",
+    "First Name": "Kunal",
+    "Last Name": "Asawara",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "NAVEEN-921",
+    "First Name": "Naveen",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "RAJ-793",
+    "First Name": "Raj",
+    "Last Name": "Sindal",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "MOHAN-8072",
+    "First Name": "MOHAN",
+    "Last Name": "LAL SUTHAR",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "VINOD-11",
+    "First Name": "Vinod",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "CIVIL",
+    "Manager Name": "Vikas Kumawat",
+    "Manager Code": "VIKAS-17"
+  },
+  {
+    "User Code": "MAHESH-8073",
+    "First Name": "MAHESH",
+    "Last Name": "KUMAR JANGID",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Naresh Kumar Jangid",
+    "Manager Code": "NARESH-857"
+  },
+  {
+    "User Code": "BHAVESH-991",
+    "First Name": "Bhavesh",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "PRADEEP-859",
+    "First Name": "Pradeep Kumar",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "ANMOL-6830",
+    "First Name": "Anmol",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "RAHUL-972",
+    "First Name": "Rahul",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "GAURAV-7491",
+    "First Name": "Gaurav",
+    "Last Name": "Nawal",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Mohd Tousif Khan",
+    "Manager Code": "TOUSIF-85"
+  },
+  {
+    "User Code": "MANGI-757",
+    "First Name": "Mangi Lal",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "RONAK-833",
+    "First Name": "Ronak",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "Amar-7721",
+    "First Name": "Amar",
+    "Last Name": "Nath",
+    "isActive": 0,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "KUNAL-7254",
+    "First Name": "Kunal Pandurang",
+    "Last Name": "Chavan",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "shopDrawingRevisionDept",
+    "First Name": "Shop Drawing Revision",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "KAILASH-6763",
+    "First Name": "Kailash",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "handoverDept",
+    "First Name": "Handover",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "DILIP-977",
+    "First Name": "Dilip",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "HIMANSHU-5904",
+    "First Name": "Himanshu Kumar",
+    "Last Name": "Kanogiya",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "DEVENDRA-45",
+    "First Name": "Devendra",
+    "Last Name": "Meghwal",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "divya-7863",
+    "First Name": "Divya",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "SUKHDEO-328",
+    "First Name": "Sukhdeo",
+    "Last Name": "Vishwakarma",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "PRABHU-6865",
+    "First Name": "Prabhu Dayal",
+    "Last Name": "Sanadhya",
+    "isActive": 1,
+    "Department": "CIVIL",
+    "Manager Name": "Siddharth Sharma",
+    "Manager Code": "SIDDHARTH-5955"
+  },
+  {
+    "User Code": "GAUTAM-7115",
+    "First Name": "Gautam",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Bhawani Singh Shekhawat",
+    "Manager Code": "BHAWANI-6081"
+  },
+  {
+    "User Code": "NIKHIL-7311",
+    "First Name": "Nikhil",
+    "Last Name": "Baghel",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "VIKAS-17",
+    "First Name": "Vikas",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "CIVIL",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "SHALESH-7022",
+    "First Name": "Shalesh",
+    "Last Name": "Mali",
+    "isActive": 0,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "lovesh-7837",
+    "First Name": "Lovesh",
+    "Last Name": "Paliwal",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "HEMENDRA-2503",
+    "First Name": "Hemendra",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "AKHIL-7145",
+    "First Name": "Akhil",
+    "Last Name": "Balan",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "protoRevision",
+    "First Name": "Proto Revision",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "Dhruv-7720",
+    "First Name": "Dhruv",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "NEHA-5286",
+    "First Name": "Neha",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "ANSHUL-7534",
+    "First Name": "Anshul",
+    "Last Name": "Chittora",
+    "isActive": 1,
+    "Department": "SKILL DEVELOPMENT",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "ARJUN-4613",
+    "First Name": "Arjun Das",
+    "Last Name": "Vairagi",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "NEERAJ RAMADHIN",
+    "Manager Code": "NEERAJ-7958"
+  },
+  {
+    "User Code": "sarthak-7872",
+    "First Name": "Sarthak",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "LOKESH-40",
+    "First Name": "Lokesh",
+    "Last Name": "Teli",
+    "isActive": 1,
+    "Department": "LED",
+    "Manager Name": "Abdul Kadir Khan",
+    "Manager Code": "ABDUL-39"
+  },
+  {
+    "User Code": "SHALIN-7640",
+    "First Name": "Shalin",
+    "Last Name": "Gandhi",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "ROHAN-838",
+    "First Name": "Rohan",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "BIKASH-7395",
+    "First Name": "Bikash",
+    "Last Name": "Senapati",
+    "isActive": 0,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "SHUBHAM-30153",
+    "First Name": "Shubham",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "DEEPIKA-7039",
+    "First Name": "Deepika",
+    "Last Name": "Rajawat",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Shailash Kumar Rawal",
+    "Manager Code": "SHAILASH-952"
+  },
+  {
+    "User Code": "VISHNU-6777",
+    "First Name": "Vishnu",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "ROSHAN-6427",
+    "First Name": "Roshan",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Lakshmi Shanker",
+    "Manager Code": "LAKSHMI-6173"
+  },
+  {
+    "User Code": "LOKESH-6327",
+    "First Name": "Lokesh",
+    "Last Name": "Menariya",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "GANESHA-7707",
+    "First Name": "GANESHA",
+    "Last Name": "RAM",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "GOURAV-4666",
+    "First Name": "Gourav",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "HOUSEKEEPING",
+    "Manager Name": "Tulsi Ram Salvi",
+    "Manager Code": "TULSI-897"
+  },
+  {
+    "User Code": "SANVAR-260",
+    "First Name": "Sanvar Mal",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "MAMOON-7548",
+    "First Name": "Mamoon Ahmad",
+    "Last Name": "Khan",
+    "isActive": 0,
+    "Department": "FACILITY_L",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "Rupesh-8035",
+    "First Name": "Rupesh Kumar",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "JITENDRA-5611",
+    "First Name": "Jitendra",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "SHRADHA-7006",
+    "First Name": "Shradha",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "HIRA-4790",
+    "First Name": "Hira Lal",
+    "Last Name": "Jatiya",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "MANISH-6798",
+    "First Name": "Manish Kumar",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Bhawani Singh Shekhawat",
+    "Manager Code": "BHAWANI-6081"
+  },
+  {
+    "User Code": "VIJAY-627",
+    "First Name": "Vijay",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "OUTDOOR PROTO TYPE",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "LEELADHAR-7098",
+    "First Name": "Leeladhar",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "PRATIK-6195",
+    "First Name": "Pratik",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Bhawani Singh Shekhawat",
+    "Manager Code": "BHAWANI-6081"
+  },
+  {
+    "User Code": "Ravi-7744",
+    "First Name": "Ravi Kumar",
+    "Last Name": "Asari",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "KAILASH-244",
+    "First Name": "Kailash Chandra",
+    "Last Name": "Arya",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Dharam Singh Chundawat",
+    "Manager Code": "DHARAM-274"
+  },
+  {
+    "User Code": "SUNIL-925",
+    "First Name": "Sunil",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MANOJ-5847",
+    "First Name": "Manoj",
+    "Last Name": "Sahu",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "RASHMI-6340",
+    "First Name": "Rashmi",
+    "Last Name": "Girhepuje",
+    "isActive": 0,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "TARKESHWAR-280",
+    "First Name": "Tarkeshwar",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "PANEL WORKS SURFACE FINISH",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MAHESH-347",
+    "First Name": "Mahesh",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "HARSHIT-4748",
+    "First Name": "Harshit",
+    "Last Name": "Trivedi",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Raju-7761",
+    "First Name": "Raju",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Aditya Vyas",
+    "Manager Code": "ADITYA-111"
+  },
+  {
+    "User Code": "DILIP-4256",
+    "First Name": "Dilip",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "ANIL-612",
+    "First Name": "Anil Kumar",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "AMIT-4506",
+    "First Name": "Amit",
+    "Last Name": "Chaudhary",
+    "isActive": 0,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "ASHOK-7391",
+    "First Name": "Ashok",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "FIRE & SAFETY",
+    "Manager Name": "Charan Jeet Singh",
+    "Manager Code": "CHARAN-6938"
+  },
+  {
+    "User Code": "SUPRAM-6588",
+    "First Name": "Supram",
+    "Last Name": "Mitra",
+    "isActive": 0,
+    "Department": "QC",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Mahesh-30237",
+    "First Name": "Mahesh",
+    "Last Name": "Patel",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "DINESH KUMAR-7674",
+    "First Name": "DINESH KUMAR",
+    "Last Name": "VISHWAKARMA",
+    "isActive": 0,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MALVIKA-7133",
+    "First Name": "Malvika",
+    "Last Name": "Rawal",
+    "isActive": 0,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Neha Srivastava",
+    "Manager Code": "NEHA-190"
+  },
+  {
+    "User Code": "HARISH-6049",
+    "First Name": "Harish",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "SANDEEP-941",
+    "First Name": "Sandeep",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "DIKSHIT-7394",
+    "First Name": "Dikshit",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "MOHAMMED-6697",
+    "First Name": "Mohammed Haroon",
+    "Last Name": "Sheikh",
+    "isActive": 0,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "PANKAJ-8083",
+    "First Name": "PANKAJ",
+    "Last Name": "JANGIR",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "SHUBHAM-3872",
+    "First Name": "Shubham",
+    "Last Name": "Jangir",
+    "isActive": 0,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "ABHISHEK-4178",
+    "First Name": "Abhishek",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "MAYANK-7417",
+    "First Name": "Mayank",
+    "Last Name": "Dhawan",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "SHRIKANT-6904",
+    "First Name": "Shrikant Vasudev",
+    "Last Name": "Ghavare",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "DEEPAK-819",
+    "First Name": "Deepak",
+    "Last Name": "Prajapat",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "DEVENDRA-6055",
+    "First Name": "Devendra",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "Saurav-7888",
+    "First Name": "Saurav Kumar",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "REKHA-7113",
+    "First Name": "Rekha",
+    "Last Name": "Ram",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "DHRUV-7474",
+    "First Name": "Dhruv Raj",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "DEEPA-7014",
+    "First Name": "Deepa Narendra",
+    "Last Name": "Ganediwal",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "MALU-30130",
+    "First Name": "Malu Ram",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "AMIT-5804",
+    "First Name": "Amit Kumar",
+    "Last Name": "Shukla",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Krishna Pal",
+    "Manager Code": "KRISHNA-4293"
+  },
+  {
+    "User Code": "ANIL-5193",
+    "First Name": "Anil Singh",
+    "Last Name": "Tanwar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "PRANAV-922",
+    "First Name": "Pranav",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "KAPIL-7624",
+    "First Name": "Kapil",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "DHARMENDRA-6611",
+    "First Name": "Dharmendra Kumar",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "BALWANT-6730",
+    "First Name": "Balwant Singh",
+    "Last Name": "Chouhan",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "MOHAMMAD-5606",
+    "First Name": "Mohammad Sameer",
+    "Last Name": "Chippa",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "MOHAMMED-5308",
+    "First Name": "Mohammed Sohail",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "MAINTENANCE_HVAC",
+    "Manager Name": "Mohammed Aezaj Aalam",
+    "Manager Code": "MOHAMMED-299"
+  },
+  {
+    "User Code": "MANISH-7036",
+    "First Name": "Manish",
+    "Last Name": "Choudhary",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "AYUSH-3595",
+    "First Name": "Ayush",
+    "Last Name": "Jinger",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "TARUN-4570",
+    "First Name": "Tarun",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "GAJENDRA-7517",
+    "First Name": "Gajendra",
+    "Last Name": "Nagarchi",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "Rahul-7840",
+    "First Name": "Rahul",
+    "Last Name": "Rawal",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Shailash Kumar Rawal",
+    "Manager Code": "SHAILASH-952"
+  },
+  {
+    "User Code": "SANDEEP-875",
+    "First Name": "Sandeep",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "pmc-test",
+    "First Name": "PMC",
+    "Last Name": "Test",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "BDC Head Test",
+    "Manager Code": "bdc-hod-test"
+  },
+  {
+    "User Code": "DIVYRAJ-7349",
+    "First Name": "Divyraj Singh",
+    "Last Name": "Chouhan",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "NEERAJ RAMADHIN",
+    "Manager Code": "NEERAJ-7958"
+  },
+  {
+    "User Code": "HEMANT-6056",
+    "First Name": "Hemant",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "ROHIT-56",
+    "First Name": "Rohit",
+    "Last Name": "Sisodia",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "RAHUL-5439",
+    "First Name": "Rahul",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "MAHENDRA-60",
+    "First Name": "Mahendra",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "LED",
+    "Manager Name": "Abdul Kadir Khan",
+    "Manager Code": "ABDUL-39"
+  },
+  {
+    "User Code": "BHAVESH-7350",
+    "First Name": "Bhavesh",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "FACILITY_L",
+    "Manager Name": "Mohd Tousif Khan",
+    "Manager Code": "TOUSIF-85"
+  },
+  {
+    "User Code": "MOHIT-5383",
+    "First Name": "Mohit",
+    "Last Name": "Nagda",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "KHYALI-648",
+    "First Name": "Khyali Lal",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "GLASS",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SALMAN-911",
+    "First Name": "Salman",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "Yogesh-8042",
+    "First Name": "Yogesh Panwar",
+    "Last Name": "Nayak",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "KULDEV-246",
+    "First Name": "Kuldev",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Harjeet Singh Rana",
+    "Manager Code": "HARJEET-107"
+  },
+  {
+    "User Code": "clientApprovalP",
+    "First Name": "Client Approval P",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "MANISH-7901",
+    "First Name": "MANISH",
+    "Last Name": "SHARMA",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "AMRIT-3807",
+    "First Name": "Amrit Lal",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Chandra Bhan Singh",
+    "Manager Code": "CHANDRA-7240"
+  },
+  {
+    "User Code": "VILOK-7605",
+    "First Name": "Vilok",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "PRAKASH-341",
+    "First Name": "PRAKASH",
+    "Last Name": "BARHEE",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "PRERAK-7480",
+    "First Name": "Prerak",
+    "Last Name": "Pandey",
+    "isActive": 0,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "CHARAN-6938",
+    "First Name": "Charan Jeet",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "FIRE & SAFETY",
+    "Manager Name": "Dhananjay Pradhan",
+    "Manager Code": "DHANANJAY-849"
+  },
+  {
+    "User Code": "HEENA-978",
+    "First Name": "Heena",
+    "Last Name": "Jain",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "Rajendra-7918",
+    "First Name": "Rajendra Kumar",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "HENIL-7587",
+    "First Name": "Henil",
+    "Last Name": "Bhatt",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "UMA-43",
+    "First Name": "Uma",
+    "Last Name": "Shankar",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "HIMANSHU-7651",
+    "First Name": "Himanshu Prashant",
+    "Last Name": "Gaikwad",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "HANS-1711",
+    "First Name": "HANS",
+    "Last Name": "RAJ",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "YASH-82",
+    "First Name": "Yash",
+    "Last Name": "Wadhwani",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "VISHNU-7687",
+    "First Name": "VISHNU",
+    "Last Name": "DESHANTRI",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "MOHAMMED-5795",
+    "First Name": "Mohammed",
+    "Last Name": "Sabir",
+    "isActive": 1,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "PAPPU-340",
+    "First Name": "PAPPU",
+    "Last Name": "PANDIT",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "NILESH-5836",
+    "First Name": "Nilesh",
+    "Last Name": "Dhupia",
+    "isActive": 1,
+    "Department": "OUTDOOR FURNITURE",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "PRACHI-7583",
+    "First Name": "Prachi",
+    "Last Name": "Kothari",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "DARSHNA-5738",
+    "First Name": "Darshna",
+    "Last Name": "Ranawat",
+    "isActive": 0,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "PRADEEP-5480",
+    "First Name": "Pradeep",
+    "Last Name": "Rawat",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "ADITYA-30136",
+    "First Name": "Aditya Pratap",
+    "Last Name": "Singh",
+    "isActive": 0,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "SHIREEN-7510",
+    "First Name": "Shireen",
+    "Last Name": "Sheikh",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Heena Jain",
+    "Manager Code": "HEENA-978"
+  },
+  {
+    "User Code": "MOHAMMED-6043",
+    "First Name": "Mohammed Suhel",
+    "Last Name": "Sheikh",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "bdc-test",
+    "First Name": "BDC Team",
+    "Last Name": "Test",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "BDC Head Test",
+    "Manager Code": "bdc-hod-test"
+  },
+  {
+    "User Code": "ABDUL-39",
+    "First Name": "Abdul Kadir",
+    "Last Name": "Khan",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "BHAWANI-6081",
+    "First Name": "Bhawani Singh",
+    "Last Name": "Shekhawat",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "ANURAG-5747",
+    "First Name": "Anurag",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "MANALI-5564",
+    "First Name": "Manali",
+    "Last Name": "Naidu",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "MRINMAY-281",
+    "First Name": "Mrinmay",
+    "Last Name": "Guchait",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "KULDEEP-7105",
+    "First Name": "Kuldeep",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "YASHWANT-137",
+    "First Name": "Yashwant",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "PANKAJ-948",
+    "First Name": "Pankaj",
+    "Last Name": "Nagar",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "VIKASH-940",
+    "First Name": "Vikash",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "Roshni-7772",
+    "First Name": "Roshni",
+    "Last Name": "Mishra",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "MAHIPAL-7345",
+    "First Name": "Mahipal",
+    "Last Name": "Nitharwal",
+    "isActive": 1,
+    "Department": "PCD",
+    "Manager Name": "Bhawani Singh Shekhawat",
+    "Manager Code": "BHAWANI-6081"
+  },
+  {
+    "User Code": "PRITAM-282",
+    "First Name": "Pritam",
+    "Last Name": "Guchait",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "PAYAL-5965",
+    "First Name": "Payal",
+    "Last Name": "Gwala",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Lakshmi Shanker",
+    "Manager Code": "LAKSHMI-6173"
+  },
+  {
+    "User Code": "JAY-599",
+    "First Name": "Jay Prakash",
+    "Last Name": "Thakur",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Aditya Vyas",
+    "Manager Code": "ADITYA-111"
+  },
+  {
+    "User Code": "BINOY-1088",
+    "First Name": "Binoy Kumar",
+    "Last Name": "Guchait",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "RAHUL-4814",
+    "First Name": "Rahul Sadashiv",
+    "Last Name": "Shevale",
+    "isActive": 1,
+    "Department": "PANEL WORKS SURFACE FINISH",
+    "Manager Name": "Harsh Palvia",
+    "Manager Code": "HARSH-52"
+  },
+  {
+    "User Code": "SANDEEP-5272",
+    "First Name": "Sandeep",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "DEVI-986",
+    "First Name": "Devi",
+    "Last Name": "Lal",
+    "isActive": 1,
+    "Department": "BOX PLANT",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "PRABHAT-7389",
+    "First Name": "Prabhat",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "DHRUV-5",
+    "First Name": "Dhruv",
+    "Last Name": "Nenawati",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "NITIN-7454",
+    "First Name": "Nitin",
+    "Last Name": "Lohar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "VIVEK-6157",
+    "First Name": "Vivek",
+    "Last Name": "Shukla",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "CHHOTU-7756",
+    "First Name": "CHHOTU",
+    "Last Name": "RAM JANGIR",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "ROHAN-5646",
+    "First Name": "Rohan",
+    "Last Name": "Suthar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "SONIKA-884",
+    "First Name": "Sonika Digvijay",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Chandrakant Suthar",
+    "Manager Code": "CHANDRAKANT-15"
+  },
+  {
+    "User Code": "PRAMOD-7968",
+    "First Name": "PRAMOD",
+    "Last Name": "RAJ",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "NAVEEN-4704",
+    "First Name": "Naveen",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "ROHAN-6543",
+    "First Name": "Rohan",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "HARSHIT-8044",
+    "First Name": "HARSHIT",
+    "Last Name": "PALIWAL",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "PULKIT-4",
+    "First Name": "Pulkit",
+    "Last Name": "Garg",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "Mukul-30260",
+    "First Name": "Mukul",
+    "Last Name": "Salvi",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "UPAVAN-5784",
+    "First Name": "Upavan",
+    "Last Name": "Panchal",
+    "isActive": 0,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "NARESH-857",
+    "First Name": "Naresh Kumar",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "MAYANK-7046",
+    "First Name": "Mayank",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "NEERAJ-7958",
+    "First Name": "NEERAJ",
+    "Last Name": "RAMADHIN",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "ARPITA-5399",
+    "First Name": "Arpita",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Naveen Kumawat",
+    "Manager Code": "NAVEEN-80"
+  },
+  {
+    "User Code": "RAKESH-182",
+    "First Name": "Rakesh",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "PRADEEP-932",
+    "First Name": "Pradeep",
+    "Last Name": "Lohar",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "JEEVAN-5746",
+    "First Name": "Jeevan",
+    "Last Name": "Menariya",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "KULDIP-5662",
+    "First Name": "Kuldip",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "clientApprovalSdDept",
+    "First Name": "Client Approval Sd",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "PRAVEEN-4792",
+    "First Name": "Praveen",
+    "Last Name": "Kumar",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Himanshu Kumar Kanogiya",
+    "Manager Code": "HIMANSHU-5904"
+  },
+  {
+    "User Code": "SUMIT-7127",
+    "First Name": "Sumit",
+    "Last Name": "Deshwar",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "ANIL-951",
+    "First Name": "Anil",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Shailash Kumar Rawal",
+    "Manager Code": "SHAILASH-952"
+  },
+  {
+    "User Code": "CHINMAY-7615",
+    "First Name": "Chinmay",
+    "Last Name": "Bhardwaj",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Rajat Singh",
+    "Manager Code": "RAJAT-7365"
+  },
+  {
+    "User Code": "AKSHAY-7340",
+    "First Name": "Akshay Govinda",
+    "Last Name": "Bhirund",
+    "isActive": 0,
+    "Department": "COST & ESTIMATION",
+    "Manager Name": "Pankaj Kumar Jain",
+    "Manager Code": "PANKAJ-5876"
+  },
+  {
+    "User Code": "HARDIK-7683",
+    "First Name": "HARDIK",
+    "Last Name": "VASHISHTHA",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Yash Wadhwani",
+    "Manager Code": "YASH-82"
+  },
+  {
+    "User Code": "Deepak-7735",
+    "First Name": "Deepak",
+    "Last Name": "Mathur",
+    "isActive": 1,
+    "Department": "FIRE & SAFETY",
+    "Manager Name": "Dhananjay Pradhan",
+    "Manager Code": "DHANANJAY-849"
+  },
+  {
+    "User Code": "ASHISH-7322",
+    "First Name": "Ashish",
+    "Last Name": "Vishwakrama",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "ievo",
+    "First Name": "IEVO",
+    "Last Name": "IEVO",
+    "isActive": 1,
+    "Department": "IEVO",
+    "Manager Name": "IEVO",
+    "Manager Code": null
+  },
+  {
+    "User Code": "GOUTAM-30107",
+    "First Name": "Goutam",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "HABUFA",
+    "Manager Name": "Pradeep Kumar Jangir",
+    "Manager Code": "PRADEEP-859"
+  },
+  {
+    "User Code": "MAHENDRA-3280",
+    "First Name": "Mahendra",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "SOLID WOOD MACHINING",
+    "Manager Name": "Ayush Jinger",
+    "Manager Code": "AYUSH-3595"
+  },
+  {
+    "User Code": "AVINASH-CONSULTANT-8",
+    "First Name": "Avinash Kumar",
+    "Last Name": "Shrivastava",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "HITESH-7234",
+    "First Name": "Hitesh",
+    "Last Name": "Sapela",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Sahil Khatri",
+    "Manager Code": "SAHIL-835"
+  },
+  {
+    "User Code": "Jatin-8033",
+    "First Name": "Jatin",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "MANAN-2",
+    "First Name": "Manan",
+    "Last Name": "Khetan",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "IEVO",
+    "Manager Code": "ievo"
+  },
+  {
+    "User Code": "Anchal-7838",
+    "First Name": "Anchal",
+    "Last Name": "Lohar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Shailash Kumar Rawal",
+    "Manager Code": "SHAILASH-952"
+  },
+  {
+    "User Code": "ARUNESH-953",
+    "First Name": "Arunesh",
+    "Last Name": "Kushawaha",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Lakshmi Shanker",
+    "Manager Code": "LAKSHMI-6173"
+  },
+  {
+    "User Code": "MAHESH-6678",
+    "First Name": "Mahesh",
+    "Last Name": "Bharati",
+    "isActive": 1,
+    "Department": "IT",
+    "Manager Name": "Avinash Kumar Shrivastava",
+    "Manager Code": "AVINASH-CONSULTANT-8"
+  },
+  {
+    "User Code": "DALPAT-7475",
+    "First Name": "Dalpat Singh",
+    "Last Name": "Solanki",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Ritik Goutam",
+    "Manager Code": "RITIK-7536"
+  },
+  {
+    "User Code": "NAMAN-7208",
+    "First Name": "Naman",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Manish Paliwal",
+    "Manager Code": "MANISH-851"
+  },
+  {
+    "User Code": "VIVEK-7218",
+    "First Name": "Vivek Kumar",
+    "Last Name": "Shrivastav",
+    "isActive": 0,
+    "Department": "SMC",
+    "Manager Name": "Himanshu Kumar Kanogiya",
+    "Manager Code": "HIMANSHU-5904"
+  },
+  {
+    "User Code": "MOHIT-125",
+    "First Name": "MOHIT",
+    "Last Name": "PARIKH",
+    "isActive": 1,
+    "Department": "MANAGEMENT",
+    "Manager Name": "Astha Khetan",
+    "Manager Code": "ASTHA-3"
+  },
+  {
+    "User Code": "MUNNA-521",
+    "First Name": "Munna Kumar",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "GAURAV-4767",
+    "First Name": "Gaurav",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Rahul Kumar Paliwal",
+    "Manager Code": "RAHUL-79"
+  },
+  {
+    "User Code": "Client Approval Sdr",
+    "First Name": "Client Approval Sdr",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "DEEPAK-357",
+    "First Name": "DEEPAK",
+    "Last Name": "KUMAR",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "PRADEEP-7452",
+    "First Name": "Pradeep",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "SHIVRAJ-7970",
+    "First Name": "SHIVRAJ",
+    "Last Name": "JANGIR",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "ABHISHEK-7182",
+    "First Name": "Abhishek",
+    "Last Name": "Tomar",
+    "isActive": 0,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "AKSHAT-6942",
+    "First Name": "Akshat",
+    "Last Name": "Goud",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "Rahul-7899",
+    "First Name": "Rahul",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "Sanjay-8026",
+    "First Name": "Sanjay",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Vipin Garg",
+    "Manager Code": "VIPIN-6640"
+  },
+  {
+    "User Code": "SEEMANT-5055",
+    "First Name": "Seemant",
+    "Last Name": "Paliwal",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "UDAY-298",
+    "First Name": "Uday",
+    "Last Name": "Mistri",
+    "isActive": 1,
+    "Department": "PANEL WORKS ASSEMBLY",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "YASH-7348",
+    "First Name": "Yash",
+    "Last Name": "Prajapat",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Hemant Kumar",
+    "Manager Code": "HEMANT-130"
+  },
+  {
+    "User Code": "ASHOK-4840",
+    "First Name": "Ashok",
+    "Last Name": "Bagri",
+    "isActive": 1,
+    "Department": "STONE",
+    "Manager Name": "Vikas Kumawat",
+    "Manager Code": "VIKAS-17"
+  },
+  {
+    "User Code": "NAVEEN-80",
+    "First Name": "Naveen",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "NIKHIL-5924",
+    "First Name": "Nikhil",
+    "Last Name": "Joshi",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "RITIK-7536",
+    "First Name": "Ritik",
+    "Last Name": "Goutam",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Diya Virendar Karansingh",
+    "Manager Code": "DIYA-6920"
+  },
+  {
+    "User Code": "RAM-3623",
+    "First Name": "Ram",
+    "Last Name": "Chandar",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "NAVEEN-7293",
+    "First Name": "Naveen Kumar",
+    "Last Name": "Rai",
+    "isActive": 1,
+    "Department": "UPHOLSTERY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "VINAY-6862",
+    "First Name": "Vinay Kumar",
+    "Last Name": "Maurya",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Ajit Kumar",
+    "Manager Code": "AJIT-942"
+  },
+  {
+    "User Code": "SANDEEP-269",
+    "First Name": "SANDEEP",
+    "Last Name": "KUMAR",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Aditya Vyas",
+    "Manager Code": "ADITYA-111"
+  },
+  {
+    "User Code": "KULDEEP-3714",
+    "First Name": "Kuldeep",
+    "Last Name": "Singh",
+    "isActive": 0,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Dharam Singh Chundawat",
+    "Manager Code": "DHARAM-274"
+  },
+  {
+    "User Code": "LOKESH-6671",
+    "First Name": "Lokesh Kumar",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "Gaurav-8041",
+    "First Name": "Gaurav",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Tikam Singh",
+    "Manager Code": "TIKAM-756"
+  },
+  {
+    "User Code": "RAJESH-988",
+    "First Name": "Rajesh",
+    "Last Name": "Sharma",
+    "isActive": 0,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "LALIT-4610",
+    "First Name": "Lalit",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PEOPLE OPERATIONS",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "Nidhi-7856",
+    "First Name": "Nidhi",
+    "Last Name": "Shaktawat",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Shailash Kumar Rawal",
+    "Manager Code": "SHAILASH-952"
+  },
+  {
+    "User Code": "SHUBHAM-657",
+    "First Name": "Shubham",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "PUSHKAR-795",
+    "First Name": "Pushkar",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "LED",
+    "Manager Name": "Abdul Kadir Khan",
+    "Manager Code": "ABDUL-39"
+  },
+  {
+    "User Code": "SHANKER-2218",
+    "First Name": "Shanker Singh",
+    "Last Name": "Puwar",
+    "isActive": 1,
+    "Department": "UPHOLSTERY",
+    "Manager Name": "Naveen Kumar Rai",
+    "Manager Code": "NAVEEN-7293"
+  },
+  {
+    "User Code": "BHANU-7627",
+    "First Name": "Bhanu Pratap",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "RANVEER-78",
+    "First Name": "Ranveer",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "SEJAL-7662",
+    "First Name": "SEJAL",
+    "Last Name": "WADHWANI",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Naresh Kumar Jangid",
+    "Manager Code": "NARESH-857"
+  },
+  {
+    "User Code": "BHAVANI-6994",
+    "First Name": "Bhavani",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "FIRE & SAFETY",
+    "Manager Name": "Dhananjay Pradhan",
+    "Manager Code": "DHANANJAY-849"
+  },
+  {
+    "User Code": "SUNIL-755",
+    "First Name": "Sunil",
+    "Last Name": "Tank",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "ASHOK PADMANARAM",
+    "Manager Code": "ASHOK-7853"
+  },
+  {
+    "User Code": "SHAILASH-952",
+    "First Name": "Shailash Kumar",
+    "Last Name": "Rawal",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "RAKESH-4752",
+    "First Name": "Rakesh",
+    "Last Name": "",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "ASHISH-7554",
+    "First Name": "Ashish",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "ISHWAR-770",
+    "First Name": "Ishwar Lal",
+    "Last Name": "Sutharl",
+    "isActive": 1,
+    "Department": "STONE",
+    "Manager Name": "Vikas Kumawat",
+    "Manager Code": "VIKAS-17"
+  },
+  {
+    "User Code": "RAVINDRA-6584",
+    "First Name": "Ravindra Kumar",
+    "Last Name": "Bairwa",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-232"
+  },
+  {
+    "User Code": "PRAVEEN-7600",
+    "First Name": "Praveen Kumar",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  },
+  {
+    "User Code": "PRIYESH-6947",
+    "First Name": "Priyesh",
+    "Last Name": "Kothari",
+    "isActive": 1,
+    "Department": "FINANCE",
+    "Manager Name": "Devendra Singh",
+    "Manager Code": "DEVENDRA-6055"
+  },
+  {
+    "User Code": "BHARAT-223",
+    "First Name": "Bharat",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "SIDDHANT-841",
+    "First Name": "Siddhant Singh",
+    "Last Name": "Solanki",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "MOHAN-6388",
+    "First Name": "Mohan Lal",
+    "Last Name": "Lohar",
+    "isActive": 1,
+    "Department": "QC",
+    "Manager Name": "Dhruv Modi",
+    "Manager Code": "DHRUV-77"
+  },
+  {
+    "User Code": "SANJAY-1946",
+    "First Name": "Sanjay",
+    "Last Name": "Bharawa",
+    "isActive": 1,
+    "Department": "CIVIL",
+    "Manager Name": "Vikas Kumawat",
+    "Manager Code": "VIKAS-17"
+  },
+  {
+    "User Code": "Vivek-7979",
+    "First Name": "Vivek",
+    "Last Name": "Sharma",
+    "isActive": 1,
+    "Department": "ADMINISTRATION",
+    "Manager Name": "Pulkit Garg",
+    "Manager Code": "PULKIT-4"
+  },
+  {
+    "User Code": "DIYA-6920",
+    "First Name": "Diya Virendar",
+    "Last Name": "Karansingh",
+    "isActive": 0,
+    "Department": "BDC",
+    "Manager Name": "Pankaj Nagar",
+    "Manager Code": "PANKAJ-948"
+  },
+  {
+    "User Code": "JAI-7324",
+    "First Name": "Jai Singh",
+    "Last Name": "Chundawat",
+    "isActive": 1,
+    "Department": "BDC",
+    "Manager Name": "Naveen Kumawat",
+    "Manager Code": "NAVEEN-80"
+  },
+  {
+    "User Code": "CHETAN-6201",
+    "First Name": "Chetan",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "GAJENDRA-6906",
+    "First Name": "Gajendra Das",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "METAL",
+    "Manager Name": "Vinod Vaishnav",
+    "Manager Code": "VINOD-799"
+  },
+  {
+    "User Code": "RAHUL-79",
+    "First Name": "Rahul Kumar",
+    "Last Name": "Paliwal",
+    "isActive": 1,
+    "Department": "PROCESS IMPROVEMENT & DEVELOPMENT",
+    "Manager Name": "Ravi Taparia",
+    "Manager Code": "RAVI-6729"
+  },
+  {
+    "User Code": "DILIP-5512",
+    "First Name": "Dilip",
+    "Last Name": "Vaishnav",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Krishna Pal",
+    "Manager Code": "KRISHNA-4293"
+  },
+  {
+    "User Code": "GOVERDHAN-860",
+    "First Name": "Goverdhan Singh",
+    "Last Name": "Solanki",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Aditya Vyas",
+    "Manager Code": "ADITYA-111"
+  },
+  {
+    "User Code": "SAHIL-835",
+    "First Name": "Sahil",
+    "Last Name": "Khatri",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ashok Jangir",
+    "Manager Code": "ASHOK-170"
+  },
+  {
+    "User Code": "NIKIT-834",
+    "First Name": "Nikit",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Anant Kumar",
+    "Manager Code": "ANANT-629"
+  },
+  {
+    "User Code": "RICKY-1695",
+    "First Name": "RICKY",
+    "Last Name": "SHARMA",
+    "isActive": 1,
+    "Department": "PANEL WORKS",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "UPANDERA-1401",
+    "First Name": "Upandera",
+    "Last Name": "Babu",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "MAHESH-7543",
+    "First Name": "Mahesh",
+    "Last Name": "Kumawat",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Harjeet Singh Rana",
+    "Manager Code": "HARJEET-107"
+  },
+  {
+    "User Code": "HIMANSHU-6444",
+    "First Name": "Himanshu",
+    "Last Name": "Kothari",
+    "isActive": 1,
+    "Department": "PACKAGING",
+    "Manager Name": "Chandra Bhan Singh",
+    "Manager Code": "CHANDRA-7240"
+  },
+  {
+    "User Code": "LALIT-359",
+    "First Name": "Lalit",
+    "Last Name": "Melkani",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "DHANANJAY-4958",
+    "First Name": "Dhananjay",
+    "Last Name": "Kumar",
+    "isActive": 1,
+    "Department": "PRINTING",
+    "Manager Name": "Dharmendrasinh Zala",
+    "Manager Code": "DHARMENDRA-4574"
+  },
+  {
+    "User Code": "OM-848",
+    "First Name": "Om Prakash",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "BAJRANG-7766",
+    "First Name": "BAJRANG",
+    "Last Name": "LAL JANGIR",
+    "isActive": 1,
+    "Department": "PRODUCTION",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "SURESH-6787",
+    "First Name": "Suresh",
+    "Last Name": "Jangir",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "YODH-486",
+    "First Name": "YODH",
+    "Last Name": "KUMAR",
+    "isActive": 1,
+    "Department": "MAINTENANCE",
+    "Manager Name": "Aditya Vyas",
+    "Manager Code": "ADITYA-111"
+  },
+  {
+    "User Code": "DEEPAK-7010",
+    "First Name": "Deepak",
+    "Last Name": "Singh",
+    "isActive": 1,
+    "Department": "CNC",
+    "Manager Name": "Harjeet Singh Rana",
+    "Manager Code": "HARJEET-107"
+  },
+  {
+    "User Code": "HARSH-52",
+    "First Name": "Harsh",
+    "Last Name": "Palvia",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Saurabh Khetan",
+    "Manager Code": "SAURABH-1"
+  },
+  {
+    "User Code": "NISHANT-6463",
+    "First Name": "Nishant Kumar",
+    "Last Name": "Choudhary",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Pankaj Sharma",
+    "Manager Code": "PANKAJ-72"
+  },
+  {
+    "User Code": "KRISHNA-4293",
+    "First Name": "Krishna",
+    "Last Name": "Pal",
+    "isActive": 1,
+    "Department": "DISPATCH",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "AMAR-1617",
+    "First Name": "Amar Singh",
+    "Last Name": "Baghela",
+    "isActive": 1,
+    "Department": "SMC",
+    "Manager Name": "Shrikant Vasudev Ghavare",
+    "Manager Code": "SHRIKANT-6904"
+  },
+  {
+    "User Code": "KAMLESHWAR-203",
+    "First Name": "Kamleshwar",
+    "Last Name": "Jangid",
+    "isActive": 1,
+    "Department": "PROTO-TYPE",
+    "Manager Name": "Sunil Kumar",
+    "Manager Code": "SUNIL-925"
+  },
+  {
+    "User Code": "VIRENDRA-403",
+    "First Name": "Virendra",
+    "Last Name": "Yadav",
+    "isActive": 1,
+    "Department": "SOLID WOOD ASSEMBLY",
+    "Manager Name": "Ranveer Singh",
+    "Manager Code": "RANVEER-78"
+  },
+  {
+    "User Code": "shopdrawingDept",
+    "First Name": "Shop Drawing",
+    "Last Name": "Dept",
+    "isActive": 1,
+    "Department": "DESIGN",
+    "Manager Name": "Manan Khetan",
+    "Manager Code": "MANAN-2"
+  },
+  {
+    "User Code": "PIYUSH-7450",
+    "First Name": "Piyush",
+    "Last Name": "Dangi",
+    "isActive": 1,
+    "Department": "INSTALLATION",
+    "Manager Name": "Kunwar Atindra Singh",
+    "Manager Code": "KUNWAR-86"
+  },
+  {
+    "User Code": "SHUBHAM-6919",
+    "First Name": "Shubham",
+    "Last Name": "Shukla",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Naveen Kumawat",
+    "Manager Code": "NAVEEN-80"
+  },
+  {
+    "User Code": "AVINASH-7281",
+    "First Name": "Avinash J",
+    "Last Name": "Thakur",
+    "isActive": 1,
+    "Department": "PMC",
+    "Manager Name": "Ojas Sunil Gupta",
+    "Manager Code": "OJAS-6429"
+  }
+]

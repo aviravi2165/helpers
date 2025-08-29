@@ -26,6 +26,9 @@
       .critical {
         background-color: #ffe5e5;
       }
+      .today {
+        background-color: #effdaf;
+      }
       .whatsapp-link {
         text-decoration: none;
         color: white;
@@ -33,6 +36,14 @@
         padding: 5px 10px;
         border-radius: 5px;
         font-size: 12px;
+      }
+      .whatsapp-link.clicked {
+        background-color: red;
+        color: white; /* optional */
+      }
+      tr:hover {
+        background-color: #f0f0f0; /* slightly darker shade */
+        cursor: pointer; /* optional */
       }
     </style>
   </head>
@@ -62,6 +73,9 @@
     <script>
       async function loadTasks() {
         let criticalCount = 0;
+        let todayCount = 0;
+        let sno = 0;
+
         try {
           const res = await fetch("data.json"); // fetch from same folder
           const tasks = await res.json();
@@ -73,14 +87,16 @@
             let currentStage = "";
 
             const row = document.createElement("tr");
-            const isCritical =
-              dayjs().isAfter(task.deadline, "day") ||
-              dayjs().isSame(task.deadline, "day");
+            const isCritical = dayjs().isAfter(task.deadline, "day");
+            const isToday = dayjs().isSame(task.deadline, "day");
             if (isCritical) {
               criticalCount++;
               row.classList.add("critical");
             }
-
+            if (isToday) {
+              todayCount++;
+              row.classList.add("today");
+            }
             if (task.acceptanceStatus === "PENDING") {
               currentStage = "AWAIT ACCEPTANCE";
             } else if (
@@ -113,9 +129,9 @@ Please take necessary action.
 
 Thank you
 Team Founder's Office`;
-
-            row.innerHTML = `
-                  <td>${index + 1}</td>
+            if (isCritical || isToday)
+              row.innerHTML = `
+                  <td>${++sno}</td>
                   <td>${task.docCode}</td>
                   <td>${task.taskDetails}</td>
                   <td>${task["Task To"]}</td>
@@ -127,8 +143,8 @@ Team Founder's Office`;
                   <td>${currentStage}</td>
                  <td>
                   ${
-                    isCritical
-                      ? `<a class="whatsapp-link"
+                    isCritical || isToday
+                      ? `<a class="whatsapp-link" onclick="this.classList.add('clicked')"
                             target="_blank"
                             href="https://wa.me/91${String(
                               task["Task To Contact"]
@@ -143,8 +159,8 @@ Team Founder's Office`;
 
                  <td>
                   ${
-                    isCritical
-                      ? `<a class="whatsapp-link"
+                    isCritical || isToday
+                      ? `<a class="whatsapp-link" onclick="this.classList.add('clicked')"
                             target="_blank"
                             href="https://wa.me/91${String(
                               task["Task By Contact"]
