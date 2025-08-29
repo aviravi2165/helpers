@@ -12,18 +12,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4383",
-    "Task To": "Arpita Vaishnav",
-    "Task To Contact": "9358475559",
-    "Task By": "Arpita Vaishnav",
-    "Task By Contact": "9358475559",
-    "taskDetails": "Radisson Raipur",
-    "deadline": "2025-08-25T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4230",
     "Task To": "Ashok Kumar",
     "Task To Contact": "6377203168",
@@ -48,18 +36,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4421",
-    "Task To": "Bhawani Vyas",
-    "Task To Contact": "8209251952",
-    "Task By": "Yashwant Dangi",
-    "Task By Contact": "6377206850",
-    "taskDetails": "INVOICE'S TILL DATE",
-    "deadline": "2025-08-28T18:30:00.000Z",
-    "acceptanceStatus": "PENDING",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4371",
     "Task To": "Bhawani Vyas",
     "Task To Contact": "8209251952",
@@ -67,30 +43,6 @@
     "Task By Contact": "9116134513",
     "taskDetails": "debtors reconsulation",
     "deadline": "2025-09-09T18:30:00.000Z",
-    "acceptanceStatus": "PENDING",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4422",
-    "Task To": "Bhawani Vyas",
-    "Task To Contact": "8209251952",
-    "Task By": "Yashwant Dangi",
-    "Task By Contact": "6377206850",
-    "taskDetails": "INTRANET INVOICE ",
-    "deadline": "2025-08-28T08:44:30.510Z",
-    "acceptanceStatus": "PENDING",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4251",
-    "Task To": "Bhawani Vyas",
-    "Task To Contact": "8209251952",
-    "Task By": "Yashwant Dangi",
-    "Task By Contact": "6377206850",
-    "taskDetails": "debtors reconciliation - DOMESTIC",
-    "deadline": "2025-08-26T07:40:24.223Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
     "acknowledgeStatus": 0
@@ -103,6 +55,18 @@
     "Task By Contact": "6377203178",
     "taskDetails": "Parallel Fire Panel ",
     "deadline": "2025-08-30T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4379",
+    "Task To": "Danish Khan",
+    "Task To Contact": "9799599542",
+    "Task By": "Saurabh Khetan",
+    "Task By Contact": "9799599550",
+    "taskDetails": "India EV Show 25 - Gandhinagar (indiaev.org)",
+    "deadline": "2025-09-17T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
     "acknowledgeStatus": 0
@@ -151,18 +115,6 @@
     "Task By Contact": "9799599550",
     "taskDetails": "Trezure Shed PoA",
     "deadline": "2025-09-01T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4379",
-    "Task To": "Danish Khan",
-    "Task To Contact": "9799599542",
-    "Task By": "Saurabh Khetan",
-    "Task By Contact": "9799599550",
-    "taskDetails": "India EV Show 25 - Gandhinagar (indiaev.org)",
-    "deadline": "2025-09-17T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
     "acknowledgeStatus": 0
@@ -228,25 +180,13 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4353",
+    "docCode": "TASK_4433",
     "Task To": "Mahendra Teli",
     "Task To Contact": "6378550383",
     "Task By": "Pankaj Kumar Jain",
     "Task By Contact": "7042630825",
-    "taskDetails": "Costing -FFM vadodra",
-    "deadline": "2025-08-26T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4376",
-    "Task To": "Mahendra Teli",
-    "Task To Contact": "6378550383",
-    "Task By": "Pankaj Kumar Jain",
-    "Task By Contact": "7042630825",
-    "taskDetails": "Costing - Sheraton Gurugram",
-    "deadline": "2025-08-27T18:30:00.000Z",
+    "taskDetails": "Costing -FFM Vadodra",
+    "deadline": "2025-08-29T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
     "acknowledgeStatus": 0
@@ -261,18 +201,6 @@
     "deadline": "2025-08-29T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4393",
-    "Task To": "Manish Choudhary",
-    "Task To Contact": "8696908067",
-    "Task By": "Ajit Kumar",
-    "Task By Contact": "6377203165",
-    "taskDetails": "PC2425_1669 | F_Taj GVK Yelahanka,Banglore_File-8",
-    "deadline": "2025-08-27T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
     "acknowledgeStatus": 0
   },
   {
@@ -312,30 +240,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4386",
-    "Task To": "Mohd Tousif Khan",
-    "Task To Contact": "7340042426",
-    "Task By": "MOHAN LAL SUTHAR",
-    "Task By Contact": "9950414944",
-    "taskDetails": "Fabric Missing",
-    "deadline": "2025-08-26T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4370",
-    "Task To": "Mona Singh Rao",
-    "Task To Contact": "6377206844",
-    "Task By": "Shabbir Khan",
-    "Task By Contact": "9116134513",
-    "taskDetails": "branch accounts ievo + icm",
-    "deadline": "2025-08-29T23:46:50.290Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4366",
     "Task To": "Mona Singh Rao",
     "Task To Contact": "6377206844",
@@ -360,15 +264,39 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4291",
-    "Task To": "Naresh Kumar Jangid",
-    "Task To Contact": "9785207864",
-    "Task By": "Jitendra Jain",
-    "Task By Contact": "7849906210",
-    "taskDetails": "CYM Gwalior",
-    "deadline": "2025-08-26T18:30:00.000Z",
+    "docCode": "TASK_4429",
+    "Task To": "Mona Singh Rao",
+    "Task To Contact": "6377206844",
+    "Task By": "Shabbir Khan",
+    "Task By Contact": "9116134513",
+    "taskDetails": "Shydom grand and fairmount project summary share with ravi sir",
+    "deadline": "2025-08-31T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4430",
+    "Task To": "Mona Singh Rao",
+    "Task To Contact": "6377206844",
+    "Task By": "Shabbir Khan",
+    "Task By Contact": "9116134513",
+    "taskDetails": "JW Ranthambore - billing explain to client for certification",
+    "deadline": "2025-09-01T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4370",
+    "Task To": "Mona Singh Rao",
+    "Task To Contact": "6377206844",
+    "Task By": "Shabbir Khan",
+    "Task By Contact": "9116134513",
+    "taskDetails": "branch accounts ievo + icm",
+    "deadline": "2025-08-29T23:46:50.290Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
     "acknowledgeStatus": 0
   },
   {
@@ -379,6 +307,30 @@
     "Task By Contact": "7849906210",
     "taskDetails": "CYM Vitthalapur Drawing Revision  ",
     "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4291",
+    "Task To": "Naresh Kumar Jangid",
+    "Task To Contact": "9785207864",
+    "Task By": "Jitendra Jain",
+    "Task By Contact": "7849906210",
+    "taskDetails": "CYM Gwalior",
+    "deadline": "2025-08-26T18:30:00.000Z",
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4318",
+    "Task To": "Naveen Kumawat",
+    "Task To Contact": "7340042421",
+    "Task By": "Naveen Kumawat",
+    "Task By Contact": "7340042421",
+    "taskDetails": "ITC welcom Tirupati | MUR |2 | Project handover",
+    "deadline": "2025-08-22T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
     "acknowledgeStatus": 0
@@ -414,18 +366,6 @@
     "Task By": "Naveen Kumawat",
     "Task By Contact": "7340042421",
     "taskDetails": "Radisson Candolim Goa | Grievacnes | check & take update",
-    "deadline": "2025-08-22T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
-    "docCode": "TASK_4318",
-    "Task To": "Naveen Kumawat",
-    "Task To Contact": "7340042421",
-    "Task By": "Naveen Kumawat",
-    "Task By Contact": "7340042421",
-    "taskDetails": "ITC welcom Tirupati | MUR |2 | Project handover",
     "deadline": "2025-08-22T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
     "doneStatus": 0,
@@ -476,6 +416,18 @@
     "taskDetails": "All PO to be completed which are pending as per Store",
     "deadline": "2025-08-27T04:37:27.287Z",
     "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4431",
+    "Task To": "Pankaj Sharma",
+    "Task To Contact": "7300049284",
+    "Task By": "Sanjay Bharawa",
+    "Task By Contact": "6377206834",
+    "taskDetails": "MS Pipe Required ( Bom No. 302172)",
+    "deadline": "2025-08-30T00:11:31.677Z",
+    "acceptanceStatus": "PENDING",
     "doneStatus": 0,
     "acknowledgeStatus": 0
   },
@@ -492,18 +444,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4408",
-    "Task To": "Pankaj Sharma",
-    "Task To Contact": "6377206828",
-    "Task By": "Sumit Deshwar",
-    "Task By Contact": "7982100303",
-    "taskDetails": "HAMC0153 - PCD data to be updated\n",
-    "deadline": "2025-09-02T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4377",
     "Task To": "Pankaj Sharma",
     "Task To Contact": "7300049284",
@@ -512,6 +452,18 @@
     "taskDetails": "Organize Library ",
     "deadline": "2025-08-29T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 0,
+    "acknowledgeStatus": 0
+  },
+  {
+    "docCode": "TASK_4434",
+    "Task To": "Pratyasha Sarangi",
+    "Task To Contact": "9777883770",
+    "Task By": "Pankaj Kumar Jain",
+    "Task By Contact": "7042630825",
+    "taskDetails": "Costing -CYM Guwahati",
+    "deadline": "2025-09-03T18:30:00.000Z",
+    "acceptanceStatus": "PENDING",
     "doneStatus": 0,
     "acknowledgeStatus": 0
   },
@@ -588,18 +540,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4381",
-    "Task To": "Saurabh Khetan",
-    "Task To Contact": "9799599550",
-    "Task By": "Saurabh Khetan",
-    "Task By Contact": "9799599550",
-    "taskDetails": "Call with Mandar Zaware (Marriott) & Kiran for MOU",
-    "deadline": "2025-08-26T18:30:00.000Z",
-    "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4423",
     "Task To": "Saurabh Khetan",
     "Task To Contact": "9799599550",
@@ -648,15 +588,15 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4368",
+    "docCode": "TASK_4400",
     "Task To": "Tanuj Kailash Raikwar",
     "Task To Contact": "9251641877",
-    "Task By": "Yash Wadhwani",
-    "Task By Contact": "7340042422",
-    "taskDetails": "Invoice Draft- Marvel",
-    "deadline": "2025-08-24T23:41:49.967Z",
+    "Task By": "Mohammed Akeel Sheikh",
+    "Task By Contact": "9627836637",
+    "taskDetails": "L&P MECHANISM ORDER 2 ",
+    "deadline": "2025-09-24T18:30:00.000Z",
     "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 1,
+    "doneStatus": 0,
     "acknowledgeStatus": 0
   },
   {
@@ -672,15 +612,15 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4400",
+    "docCode": "TASK_4368",
     "Task To": "Tanuj Kailash Raikwar",
     "Task To Contact": "9251641877",
-    "Task By": "Mohammed Akeel Sheikh",
-    "Task By Contact": "9627836637",
-    "taskDetails": "L&P MECHANISM ORDER 2 ",
-    "deadline": "2025-09-24T18:30:00.000Z",
+    "Task By": "Yash Wadhwani",
+    "Task By Contact": "7340042422",
+    "taskDetails": "Invoice Draft- Marvel",
+    "deadline": "2025-08-24T23:41:49.967Z",
     "acceptanceStatus": "ACCEPTED",
-    "doneStatus": 0,
+    "doneStatus": 1,
     "acknowledgeStatus": 0
   },
   {

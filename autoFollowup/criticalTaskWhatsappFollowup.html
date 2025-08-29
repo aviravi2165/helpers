@@ -100,7 +100,7 @@
                 : "!!Alert"
             }*
 
-Hello ${task["Task To"]},
+Hello <recipient>,
 
 You have a task in your dashboard with the following details:
 
@@ -133,7 +133,7 @@ Team Founder's Office`;
                             href="https://wa.me/91${String(
                               task["Task To Contact"]
                             ).replace(/\D/g, "")}?text=${encodeURIComponent(
-                          msg1
+                          msg1.replace("<recipient>", task["Task To"])
                         )}">
                             WhatsApp
                         </a>`
@@ -147,9 +147,9 @@ Team Founder's Office`;
                       ? `<a class="whatsapp-link"
                             target="_blank"
                             href="https://wa.me/91${String(
-                              task["Task To Contact"]
+                              task["Task By Contact"]
                             ).replace(/\D/g, "")}?text=${encodeURIComponent(
-                          msg1
+                          msg1.replace("<recipient>", task["Task By"])
                         )}">
                             WhatsApp
                         </a>`
