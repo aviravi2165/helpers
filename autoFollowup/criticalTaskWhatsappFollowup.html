@@ -94,49 +94,69 @@
               currentStage = "????";
             }
 
-            row.innerHTML = `
-            <td>${index + 1}</td>
-            <td>${task.docCode}</td>
-            <td>${task.taskDetails}</td>
-            <td>${task["Task To"]}</td>
-            <td>${task["Task To Contact"]}</td>
+            const msg1 = `*${
+              dayjs().isAfter(task.deadline, "day")
+                ? "!!Critical Update"
+                : "!!Alert"
+            }*
 
-            <td>${task["Task By"]}</td>
-            <td>${task["Task By Contact"]}</td>
-            <td>${dayjs(task.deadline).format("DD-MMM-YYYY")}</td>
-            <td>${currentStage}</td>
-            <td>
-              ${
-                isCritical
-                  ? `<a class="whatsapp-link" target="_blank"
-                       href="https://wa.me/91${String(
-                         task["Task To Contact"]
-                       ).replace(
-                         /\D/g,
-                         ""
-                       )}?text=%F0%9F%94%94%20I.EVO%20Task%20Dashboard%20Update%20Notice%0A%0AHello%20${encodeURIComponent(
-                      task["Task To"]
-                    )}%2C%0A%0AThis%20is%20a%20quick%20update%20to%20inform%20you%20that%20a%20new%20update%20for%20our%20task%20management%20tool%20will%20be%20rolled%20out%20shortly.%0A%0AWe%20have%20completed%20housekeeping%20and%20archived%20all%20tasks%20created%20before%20June%2030th.%20However%2C%20our%20records%20show%20that%20some%20of%20your%20tasks%20remain%20%2Aoverdue%2A%20%28marked%20in%20red%29.%0A%0A%E2%9C%85%20Action%20Required%3A%0APlease%20review%20your%20personal%20dashboard%20ASAP%20and%20take%20necessary%20action%20on%20any%20outstanding%20critical%20tasks.%0A%0APlease%20note%3A%20SK%20will%20be%20personally%20monitoring%20the%20status%20of%20critical%20tasks.%20Your%20prompt%20attention%20will%20ensure%20a%20smooth%20process%20for%20everyone.%0A%0AThank%20you%20for%20your%20immediate%20cooperation.%0A%0ABest%20regards%2C">
-                       WhatsApp
-                     </a>`
-                  : "-"
-              }
-            </td>
-            <td>
-              ${
-                isCritical
-                  ? `<a class="whatsapp-link" target="_blank"
-                       href="https://wa.me/${
-                         task["Task By Contact"]
-                       }?text=%F0%9F%94%94%20I.EVO%20Task%20Dashboard%20Update%20Notice%0A%0AHello%20${encodeURIComponent(
-                      task["Task To"]
-                    )}%2C%0A%0AThis%20is%20a%20quick%20update%20to%20inform%20you%20that%20a%20new%20update%20for%20our%20task%20management%20tool%20will%20be%20rolled%20out%20shortly.%0A%0AWe%20have%20completed%20housekeeping%20and%20archived%20all%20tasks%20created%20before%20June%2030th.%20However%2C%20our%20records%20show%20that%20some%20of%20your%20tasks%20remain%20%2Aoverdue%2A%20%28marked%20in%20red%29.%0A%0A%E2%9C%85%20Action%20Required%3A%0APlease%20review%20your%20personal%20dashboard%20ASAP%20and%20take%20necessary%20action%20on%20any%20outstanding%20critical%20tasks.%0A%0APlease%20note%3A%20SK%20will%20be%20personally%20monitoring%20the%20status%20of%20critical%20tasks.%20Your%20prompt%20attention%20will%20ensure%20a%20smooth%20process%20for%20everyone.%0A%0AThank%20you%20for%20your%20immediate%20cooperation.%0A%0ABest%20regards%2C">
-                       WhatsApp
-                     </a>`
-                  : "-"
-              }
-            </td>
-          `;
+Hello ${task["Task To"]},
+
+You have a task in your dashboard with the following details:
+
+*Task Code:* ${task.docCode}
+*Details:* ${task.taskDetails}
+*Deadline:* ${dayjs(task.deadline).format("DD-MMM-YYYY")}
+*Current Stage:* ${currentStage}
+
+Please take necessary action.
+
+Thank you
+Team Founder's Office`;
+
+            row.innerHTML = `
+                  <td>${index + 1}</td>
+                  <td>${task.docCode}</td>
+                  <td>${task.taskDetails}</td>
+                  <td>${task["Task To"]}</td>
+                  <td>${task["Task To Contact"]}</td>
+
+                  <td>${task["Task By"]}</td>
+                  <td>${task["Task By Contact"]}</td>
+                  <td>${dayjs(task.deadline).format("DD-MMM-YYYY")}</td>
+                  <td>${currentStage}</td>
+                 <td>
+                  ${
+                    isCritical
+                      ? `<a class="whatsapp-link"
+                            target="_blank"
+                            href="https://wa.me/91${String(
+                              task["Task To Contact"]
+                            ).replace(/\D/g, "")}?text=${encodeURIComponent(
+                          msg1
+                        )}">
+                            WhatsApp
+                        </a>`
+                      : "-"
+                  }
+                </td>
+
+                 <td>
+                  ${
+                    isCritical
+                      ? `<a class="whatsapp-link"
+                            target="_blank"
+                            href="https://wa.me/91${String(
+                              task["Task To Contact"]
+                            ).replace(/\D/g, "")}?text=${encodeURIComponent(
+                          msg1
+                        )}">
+                            WhatsApp
+                        </a>`
+                      : "-"
+                  }
+                </td>
+                `;
             tbody.appendChild(row);
           });
         } catch (err) {
