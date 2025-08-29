@@ -49,7 +49,7 @@
   </head>
   <body>
     <h2>Critical Task Deadlines (Whatsapp Alers)</h2>
-    Critical task count : <span id="criticalCount"></span>
+    <span id="criticalCount"></span>
     <table>
       <thead>
         <tr>
@@ -178,7 +178,9 @@ Team Founder's Office`;
         } catch (err) {
           console.error("Error loading tasks:", err);
         }
-        document.getElementById("criticalCount").innerHTML = criticalCount;
+        document.getElementById(
+          "criticalCount"
+        ).innerHTML = `Over Due count : ${criticalCount} | Due Today : ${todayCount}`;
       }
 
       loadTasks();

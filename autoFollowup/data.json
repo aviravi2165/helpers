@@ -195,19 +195,6 @@
     "acknowledgeStatus": 0
   },
   {
-    "docCode": "TASK_4327",
-    "Task To": "Kunwar Atindra Singh",
-    "Task To Contact": "9116121780",
-    "Task By": "Saurabh Khetan",
-    "Task By Contact": "9799599550",
-    "taskDetails": "Door Rework - Four Seasons (Gwalior)",
-    "Task Created Date": "2025-08-22T04:53:33.997Z",
-    "deadline": "2025-08-23T18:30:00.000Z",
-    "acceptanceStatus": "PENDING",
-    "doneStatus": 0,
-    "acknowledgeStatus": 0
-  },
-  {
     "docCode": "TASK_4433",
     "Task To": "Mahendra Teli",
     "Task To Contact": "6378550383",
@@ -242,8 +229,8 @@
     "taskDetails": "Change Reporting",
     "Task Created Date": "2025-08-29T10:09:22.660Z",
     "deadline": "2025-08-28T18:30:00.000Z",
-    "acceptanceStatus": "PENDING",
-    "doneStatus": 0,
+    "acceptanceStatus": "ACCEPTED",
+    "doneStatus": 1,
     "acknowledgeStatus": 0
   },
   {
