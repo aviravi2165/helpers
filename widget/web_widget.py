@@ -4,12 +4,22 @@ import os
 import winreg
 import threading
 import time
+import json
+from pathlib import Path
 
 # Configuration - change this URL to your desired website
 WEBSITE_URL = "https://app.ievo.in"  # Change this to your web app URL
 WINDOW_TITLE = "I.EVO App Widget"
 WINDOW_WIDTH = 430
-WINDOW_HEIGHT = 800  # 1280x720 = 16:9 aspect ratio
+WINDOW_HEIGHT = 800
+
+# Persistent storage paths
+APP_DATA_DIR = Path(os.getenv('APPDATA')) / 'IEvoWidget'
+USER_DATA_DIR = APP_DATA_DIR / 'UserData'
+CONFIG_FILE = APP_DATA_DIR / 'config.json'
+
+# Create application data directory if it doesn't exist
+os.makedirs(USER_DATA_DIR, exist_ok=True)
 
 def set_startup():
     """Add the application to startup registry"""
@@ -32,11 +42,42 @@ def set_startup():
         )
         
         # Set the value
-        winreg.SetValueEx(key, "WebWidget", 0, winreg.REG_SZ, exe_path)
+        winreg.SetValueEx(key, "IEvoWidget", 0, winreg.REG_SZ, exe_path)
         winreg.CloseKey(key)
         print("Added to startup successfully")
     except Exception as e:
         print(f"Error adding to startup: {e}")
+
+def save_config():
+    """Save configuration to file"""
+    config = {
+        'website_url': WEBSITE_URL,
+        'window_width': WINDOW_WIDTH,
+        'window_height': WINDOW_HEIGHT,
+        'last_updated': time.time()
+    }
+    
+    try:
+        with open(CONFIG_FILE, 'w') as f:
+            json.dump(config, f, indent=2)
+        print("Configuration saved successfully")
+    except Exception as e:
+        print(f"Error saving config: {e}")
+
+def load_config():
+    """Load configuration from file"""
+    global WEBSITE_URL, WINDOW_WIDTH, WINDOW_HEIGHT
+    
+    if CONFIG_FILE.exists():
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                config = json.load(f)
+                WEBSITE_URL = config.get('website_url', WEBSITE_URL)
+                WINDOW_WIDTH = config.get('window_width', WINDOW_WIDTH)
+                WINDOW_HEIGHT = config.get('window_height', WINDOW_HEIGHT)
+                print("Configuration loaded successfully")
+        except Exception as e:
+            print(f"Error loading config: {e}")
 
 def inject_persistent_back_button(window):
     """Continuously inject back button on every page"""
@@ -63,24 +104,22 @@ def inject_persistent_back_button(window):
                 style.innerHTML = `
                     #webwidget-back-btn {
                         position: fixed !important;
-                        top: 10px !important;
-                        left: 10px !important;
+                        top: 8px !important;
+                        right: 64px !important;
                         z-index: 9999 !important;
-                        width: 40px !important;
-                        height: 40px !important;
-                        border-radius: 50% !important;
-                        background-color: rgba(255, 255, 255, 0.8) !important;
-                        border: 1px solid #ccc !important;
                         display: flex !important;
                         align-items: center !important;
                         justify-content: center !important;
-                        font-size: 20px !important;
                         cursor: pointer !important;
-                        box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+                        width: 40px !important;
+                        height: 40px !important;
+                        border-radius: 50% !important;
+                        color: #f4f6f8 !important;
+                        background-color: #bdbdbd !important;                        
                         transition: background-color 0.3s !important;
                     }
                     #webwidget-back-btn:hover {
-                        background-color: rgba(240, 240, 240, 0.9) !important;
+                        background-color: #616161 !important;
                     }
                 `;
                 document.head.appendChild(style);
@@ -100,7 +139,14 @@ def inject_persistent_back_button(window):
             continue
 
 def create_window():
-    """Create the webview window"""
+    """Create the webview window with persistent cookies"""
+    # Load configuration
+    load_config()
+    
+    # Set environment variables for persistent storage
+    # This is the correct way to enable persistent cookies in pywebview
+    os.environ['WEBVIEW_PERSISTENT_STORAGE'] = str(USER_DATA_DIR)
+    
     # Create the main browser window
     window = webview.create_window(
         title=WINDOW_TITLE,
@@ -111,6 +157,18 @@ def create_window():
         text_select=True,
         confirm_close=True,
     )
+    
+    # Save configuration when window is closed
+    def on_closed():
+        save_config()
+        print("Application closed. Cookies and configuration saved persistently.")
+    
+    # Set closed event handler
+    try:
+        window.events.closed += on_closed
+    except:
+        # Fallback if events are not supported
+        pass
     
     # Start a thread to continuously inject the back button
     threading.Thread(target=inject_persistent_back_button, args=(window,), daemon=True).start()
