@@ -112,8 +112,8 @@
 
             const msg1 = `*${
               dayjs().isAfter(task.deadline, "day")
-                ? "!!Critical Update"
-                : "!!Alert"
+                ? "!!Critical Alert - Deadline Missed"
+                : "!!Alert - Deadline Today"
             }*
 
 Hello <recipient>,
