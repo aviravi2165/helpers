@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 // API endpoint to run arbitrary SQL query
-app.post("/api/query", async (req, res) => {
+app.post("/query", async (req, res) => {
   const { query } = req.body;
 
   if (!query || typeof query !== "string") {
@@ -35,7 +35,7 @@ app.post("/api/query", async (req, res) => {
   }
 });
 
-app.get("/api/stamp", async (req, res) => {
+app.get("/stamp", async (req, res) => {
   const { code } = req.query;
 
   if (!code) {
