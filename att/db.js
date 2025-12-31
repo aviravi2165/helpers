@@ -4,11 +4,12 @@ const sql = require("mssql");
 const config = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  server: process.env.DB_SERVER, // e.g. 'localhost'
+  server: process.env.DB_SERVER,
   database: process.env.DB_NAME,
+  table: process.env.DB_TABLE,
   port: parseInt(process.env.DB_PORT || "1433", 10),
   options: {
-    encrypt: false, // set true if using Azure or TLS
+    encrypt: false,
     trustServerCertificate: true,
   },
 };
@@ -27,7 +28,53 @@ async function executeQuery(queryText) {
   return result.recordset;
 }
 
+async function stampLog(code) {
+  const pool = await getPool();
+  const qry = `
+  INSERT INTO ${config.table} (
+      DownloadDate,
+      DeviceId,
+      UserId,
+      LogDate,
+      Direction,
+      AttDirection,
+      StatusCode,
+      WorkCode,
+      VerificationMode,
+      IsApproved,
+      LogRecordLocation,
+      AttenndanceMarkingType,
+      Lattitude,
+      Longitude,
+      NetworkLattitude,
+      Temperature,
+      TemperatureState
+  )
+  VALUES (
+      GETDATE(),
+      '18',
+      '${code}',
+      DATEADD(SECOND, 38, GETDATE()),
+      N'in',
+      N' ',
+      N'0',
+      N'0',
+      N'1004',
+      1,
+      N'',
+      N'Biometric',
+      N'',
+      N'',
+      N'',
+      0.0,
+      0
+  );`;
+  const result = await pool.request().query(qry);
+  return result.rowsAffected[0] > 0;
+}
+
 module.exports = {
   sql,
   executeQuery,
+  stampLog,
 };

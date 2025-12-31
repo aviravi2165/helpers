@@ -6,7 +6,7 @@ const path = require("path");
 const openModule = require("open");
 const open = openModule.default || openModule; // <-- add this wrapper
 
-const { executeQuery } = require("./db");
+const { executeQuery, stampLog } = require("./db");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -35,12 +35,23 @@ app.post("/api/query", async (req, res) => {
   }
 });
 
+app.get("/api/stamp", async (req, res) => {
+  const { code } = req.query;
+
+  if (!code) {
+    return res.status(400).json({ error: "code is required." });
+  }
+
+  try {
+    const result = await stampLog(code);
+    res.json(result ? "SUCCESS" : "FAILURE");
+  } catch (err) {
+    console.error("SQL error:", err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
 app.listen(PORT, () => {
   const url = `http://localhost:${PORT}`;
   console.log(`Server is running at ${url}`);
-
-  // Try to open the UI page automatically in the default browser
-  open(url).catch(() => {
-    console.log("Please open the URL manually in your browser.");
-  });
 });
