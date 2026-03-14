@@ -1,12 +1,13 @@
 // db.js
 const sql = require("mssql");
-
+const curDate = new Date();
+const currentTable = `DeviceLogs_${curDate.getMonth() + 1}_${curDate.getFullYear()}`;
 const config = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   server: process.env.DB_SERVER,
   database: process.env.DB_NAME,
-  table: process.env.DB_TABLE,
+  table: currentTable,
   port: parseInt(process.env.DB_PORT || "1433", 10),
   options: {
     encrypt: false,
